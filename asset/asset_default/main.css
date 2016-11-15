@@ -1,0 +1,442 @@
+/* CSS Document 
+Name	: Zuhdi Robbani
+URL		: dzillaweb.com
+font-family: 'Poiret One', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+body{
+	font-family: 'Muli', sans-serif;
+}
+a{
+	color: #333;
+}
+#vc-topbar{
+	color:#fff;
+	font-size:16px;
+	font-family: 'Questrial', sans-serif;
+	padding: 0 0 10px 0;
+	font-weight: 600;
+	right: 0;
+ 	left: 0;
+ 	top:0;
+}
+#vc-topbar .vc-link{
+	margin-left: 10px;
+}
+#vc-topbar .vc-link a{
+	color:#1E1E20;
+	padding: 5px 10px 15px 10px;
+	margin: 0 10px;
+	font-family: 'Questrial', sans-serif;
+	font-size: 22px;
+}
+#vc-topbar input{
+	color:#333;
+}
+#vc-header{
+	margin:0px;
+	padding: 10px 0;
+}
+#vc-header a{
+	margin-top:100px;
+}
+.vc-carousel{
+}
+/* Carousel base class */
+.carousel {
+  height: 700px;
+  margin-bottom: 0px;
+}
+.carousel-caption {
+  z-index: 10;
+  color:#000000;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 700px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+}
+#vc-link-gender{
+	
+}
+#vc-link-gender a{
+	color:#1E1E20;
+	font-weight: 600;
+	font-family: 'Questrial', sans-serif;
+	font-size: 16px;
+	padding: 10px 5px;
+}
+#vc-link-gender a:hover{
+	text-decoration: none;
+	color: #1E1E20;
+	padding: 10px 5px;
+}
+#vc-search-top{
+	margin-top: 15px;	
+	color: #333;
+}
+#vc-link-account{
+	margin-top: 20px;
+}
+#vc-link-account a{
+	color:#1E1E20;
+	font-weight: 600;
+	font-family: 'Questrial', sans-serif;
+	font-size: 16px;
+}
+#vc-nav{
+	padding-top:8px;
+
+
+}
+#vc-nav a{
+	color:#ffd633;
+	font-weight: bolder;	
+	font-family: 'Questrial', sans-serif;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+}
+#vc-nav a:hover{
+	color:#333;
+	background-color: #ffd633;
+}
+.navbar{
+	margin-
+}
+#vc-nav .vc-foundation{
+	color:#ff0000;
+	font-weight: normal;
+	font-family: 'Questrial', sans-serif;
+}
+#vc-title{
+	color: #ffd633;
+	text-decoration: none;
+	font-weight: bolder;
+	font-family: 'Questrial', sans-serif;
+	font-size: 36px;
+	margin: 0 0 0 0px;
+	padding: 0;
+}
+#vc-title small{
+	font-size: 12px;
+	color: #ff0000;
+	font-weight: bold;
+	font-family: 'Questrial', sans-serif;
+}
+#vc-title a{
+	color: #ffd633;
+}
+#vc-title a:hover{
+	text-decoration: none;
+}
+#vc-banner{
+	height: 400px;
+}
+#vc-banner .banner{
+	width : auto;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+#vc-play-video{
+	border-bottom: 1px solid #e0e0e0;
+	padding: 20px 0px 0px 0px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 0px;
+    height: 500px;
+}
+#vc-play-video .overlay-image{
+	border-top: 1px solid #e0e0e0;
+	margin: 20px 0px 0px 0px;
+    position: absolute;
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(97, 97, 97, 0.5);
+}
+.play-button-container {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    font-size: 5vw;
+    color: white;
+	font-family: 'Muli', sans-serif;
+}
+.play-button-container p{
+	font-family: 'Muli', sans-serif;
+	font-size: 2vw;
+}
+.play-button-container button{
+	background-color: #FFD633;
+	border:1px solid #FFD633;
+	padding: 6px 10px;
+	color:#1E1E20;
+	font-size:18px;
+}
+#vc-discover{
+	margin: 200px 0 50px 0;
+}
+#vc-discover h2{
+	background-color: #fff;
+	padding: 0px 10px;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#vc-discover i{
+	padding: 0 10px;
+}
+#vc-celebrand{
+	margin: 50px 0 50px 0;
+}
+#vc-celebrand h2{
+	background-color: #fff;
+	padding: 0px 10px;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#vc-celebrand i{
+	padding: 0 10px;
+}
+#vc-social{
+	margin: 0px 0 0px 0;
+}
+#vc-social h2{
+	background-color: #fff;
+	padding: 0px 10px;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#vc-social i{
+	padding: 0 10px;
+}
+.vc-dotted{
+	border-bottom: 1px dotted #1E1E20;
+}
+.vc-one a{
+	color:#1E1E20;
+	text-decoration:none;
+	text-align: center;
+}
+#vc-banner-footer{
+	padding: 20px 0px 0px 0px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+    height: 350px;
+}
+#vc-banner-footer .overlay-image{
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	margin: 20px 0px 0px 0px;
+    position: absolute;
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(97, 97, 97, 0.5);
+}
+#vc-banner-footer .play-button-container {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    font-size: 5vw;
+    color: white;
+	font-family: 'Muli', sans-serif;
+}
+#vc-footer{
+	margin: 10px 0 0 0;
+	border-top: 1px double #1E1E20;
+	border-width: 3px;
+}
+.imgA1 { position:absolute; top: 0px; left: 0px; z-index: 1; }
+.imgB1 { background-color: #FFD633; position:absolute; top: 5px; left: 20px; z-index: 3;padding:5px; color:#1E1E20;}
+.container-po { position:relative; }
+.btn-tip{
+	background-color: #FFD633;
+	border:1px solid #FFD633;
+	padding: 6px 10px;
+	color:#1E1E20;
+	border-radius: 0px;
+}
+.form-control{
+	border-radius: 0px;
+}
+.vc-input-text{
+	padding: 5px;
+	width:100%;
+}
+#row-recommendonation{
+	margin-bottom: 20px;
+}
+#row-occasions{
+	margin-bottom: 20px;
+}
+#row-occasions h4{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.vc-footer-child{
+	border-right:1px solid #1E1E20;
+	height: 190px;
+	border-bottom: 1px solid #1E1E20;
+}
+.vc-footer-child a{
+	color:#1E1E20;
+	font-size: 15px;
+}
+.vc-footer-child-right{
+	border-bottom: 1px solid #1E1E20;
+	height: 190px;
+}
+.vc-footer-child-right a{
+	color:#1E1E20;
+}
+.vc-footer-child-box{
+	border: 1px solid #333;
+}
+.vc-top-footer{
+	color:#1E1E20;
+}
+.vc-top-footer a{
+	margin:0px 5px 0 5px;
+}
+#vc-bottom-footer{
+	background: #FFD633;
+	color:#333;
+	font-family: 'Muli', sans-serif;
+	height: 100px;
+	padding: 20px 0 0 0;
+}
+#vc-bottom-footer a{
+	color:#333;
+}
+
+#vc-box{  
+	border-bottom:2px solid #fff;
+	border-right:2px solid #fff;
+	background-size:cover;
+    width: 100%;
+    height: 100%;
+}
+
+#vc-overlay{  background:rgba(0,0,0,.35);
+               text-align:center;
+               padding:60% 0 60% 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+           }
+
+#vc-box:hover #vc-overlay {
+               opacity:1;}
+
+#vc-plus{  
+    color:rgba(255,255,255,.25);
+}
+#vc-product-left{
+	height: 300px;	
+	background-size:cover;
+	margin-bottom: 20px;
+	background-position: center;
+}
+#vc-product-center{
+	height: 620px;	
+	background-size:cover;
+	margin-bottom: 20px;
+	background-position: center;
+}
+#vc-occasions{
+	margin: 20px 0 0 0;
+}
+#vc-occasions h2{
+	margin-bottom: 20px;
+}
+#vc-subproduct{
+	margin: 10px 0 0 0;
+}
+#vc-subproduct h2{
+	margin-bottom: 20px;
+}
+#vc-subproduct a{
+	color:#1E1E20;
+	margin: 0 30px 0 0;
+}
+#row-subproduct{
+	margin-top: 30px;
+}
+#vc-detail-product{
+	margin: 30px 0 0 0;
+	padding-bottom: 20px;
+}
+#vc-detail-product h2{
+	margin: 0 0 20px 0;
+	font-family: 'Lato', sans-serif;
+}
+.vc-modal-video{
+	width:80%;
+}
+.vc-detail-product-right{
+	text-align: left;
+}
+.vc-detail-product-right h3{
+	text-align: left;
+}
+.vc-detail-product-right small{
+	color:#e0e0e0;
+}
+.vc-detail-product-right header{
+	border-bottom: 1px solid #e0e0e0;
+	padding: 0 0 5px 0;
+	margin-bottom: 20px;
+}
+.top-gallery{
+	border-bottom: 1px dotted #333;
+	padding-bottom: 20px;
+}
+.row-class{
+	padding: 20px 0;
+	border-bottom: 1px dotted #333;
+	margin-bottom: 20px;
+}
+.vc-vashion-link h1{
+	margin: 20px 0;
+}
+.row-vashion-link{
+	margin-bottom: 20px;
+}
+.form-search{
+	background: transparent;
+    color:#fff;
+    border: none;
+    border-bottom: 2px solid #ffd633;
+    width:80%;
+}
+#overlaymenu {
+    z-index: 1000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 20px;
+}
+.vc-banner-capt{
+	color:#ffd633;
+	font-family: 'Questrial', sans-serif;
+}

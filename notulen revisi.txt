@@ -1,0 +1,22 @@
+-gambar produk shop campaign diatas harga, ada tulisan nama public figurenya. misal "Andien Aisyah's Gallery" 
+-di pop up shop campaignnya, formatnya ada :
+1. short description ttg shop campaign (V)
+2. tip donation box + buy & donate ( udah sama gausah diubah)(V)
+3. View All Andien Aisyah's Gallery (berarti PER campaigner produt PAGE ada kisaran 8 gambar produk lgi didalemnya. thats why, ada 2 option : juhdi bikin pop up nya lebih besar atau setiap click "view all andien's gallery" keintegrasi sama page baru yg berisi 8 produk lain per setiap campaigner..which is kita punya 6 campaigner. so bikin 6 page tambahan)
+-diatas masing2 page tsb ada " artikel ttg short profil si public figure tsb + updatean karir dia (misal. lagi bikin music album ke tiga) -> this is supposed to be indirect promotion for our campaigner partner to get more valu (V)
+
+[RALAT]
+1. space buat "Another Related Product" di bagian bawah page vorcee.com/beta/page/product sama vorcee.com/beta/page/view-category di HAPUS ajaa ya jud (mbicoz i remembered, we want to put consumer buying to focus with the product  first hehe) - kecuali di vorcee.com/beta/page/view-product TETAP ada 
+2. Due to the schedule we have, jadi we'll tell you that for the 1st launch masih dalam testing, so Di samping nama logo vorcee ditulis kecil aja "BETA" (V)
+3. Di banner besar home page (yg ada gambar cewe summer) ada tulisan2 penjelasan ttg "About Us" (V)
+4. karena 1st launch kita belum running-in marketplace, jadinya tolong "Navigasi Produk" di Hidden dulu ( sembunyiin dulu )(V)
+5. Untuk masalah detail single product, sebenernya masih dalam brainstorming sih nanti mau kaya gimana cuma untuk sementara waktu itu dulu (hanya khusus marketplace loh ini). tapi klo desain buat detail single product shop campaign formatnya : 
+-Konten (shop campaign goal description, profil public figure, sedikit (V)
+
+[RALAT]
+1. "OUR CELEBRANDS diganti jadi "UPCOMING CAMPAIGNER"(V)
+2. Dibawah Video #MODVORCEE ada space page kecil warna putih kebagi 2 (nyambung sama yg atas ga terpisah, kaya waktu desain vorcee yg lama bagian home nya) buat tulisan2 "Testimonials" dari pihak campaigner  dan pihak donatur (V)
+[RALAT]
+1. bagian footer "Join The Party" diganti jadi "The Indoestry" (V)
+2. #VORCEECLASS & #VORCEELINK diganti jadi #FASHIONCLASS & #FASHIONLINK (V)
+3. Mereka berdua, harus ada page khususnya yaa bukan pop up. (klo emg misalkan ga bisa page khusus dan harus bayar, how much? dan ada alternatif lain gaa selain bayar? mungkin ada page lain yg harus dikurangin/ilangin buat gantiin ke page mereka ini (fashionclass & fashionlink) ?
