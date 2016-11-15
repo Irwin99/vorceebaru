@@ -16,9 +16,6 @@
 			<div class="row" id="row-recommendonation">
 				<div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
-		          	<span class="imgB1">
-		          		30 Days Left
-		          	</span>
 		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
 		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk1.jpg')?>)">
 					  <div id="vc-overlay">
@@ -27,17 +24,16 @@
 					    </span>
 					  </div>
 					</div>
-		            <h4 class="text-center">
+		            <h4>
 		            	<b>Andien Aisyah's Gallery</b><br /><br />
-		            	IDR 50,000
+		            	COURSE FEE : IDR 400,000<br/>
+		            	DATE : 14 NOV(MON) 2016<br/>
+		            	TIME : 10AM-2PM
 		            </h4>
 		          </div>
 		        </div>
 		        <div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
-		          	<span class="imgB1">
-		          		30 Days Left
-		          	</span>
 		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
 		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk2.jpg')?>)">
 					  <div id="vc-overlay">
@@ -46,17 +42,16 @@
 					    </span>
 					  </div>
 					</div>
-		            <h4 class="text-center">
+		            <h4>
 		            	<b>Isyana Sarasvati's Gallery</b><br /><br />
-		            	IDR 50,000
+		            	COURSE FEE : IDR 400,000<br/>
+		            	DATE : 14 NOV(MON) 2016<br/>
+		            	TIME : 10AM-2PM
 		            </h4>
 		          </div>
 		        </div>
 		        <div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
-		          	<span class="imgB1">
-		          		30 Days Left
-		          	</span>
 		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
 		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk3.jpg')?>)">
 					  <div id="vc-overlay">
@@ -65,9 +60,11 @@
 					    </span>
 					  </div>
 					</div>
-		            <h4 class="text-center">
+		            <h4>
 		            	<b>Raisa Adriana's Gallery</b><br /><br />
-		            	IDR 50,000
+		            	COURSE FEE : IDR 400,000<br/>
+		            	DATE : 14 NOV(MON) 2016<br/>
+		            	TIME : 10AM-2PM
 		            </h4>
 		          </div>
 		        </div>
@@ -76,9 +73,6 @@
 			<div class="row" id="row-recommendonation">
 				<div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
-		          	<span class="imgB1">
-		          		30 Days Left
-		          	</span>
 		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
 		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk1.jpg')?>)">
 					  <div id="vc-overlay">
@@ -87,18 +81,16 @@
 					    </span>
 					  </div>
 					</div>
-		            <h4 class="text-center">
+		            <h4>
 		            	<b>Andien Aisyah's Gallery</b><br /><br />
-		            	IDR 50,000
+		            	COURSE FEE : IDR 400,000<br/>
+		            	DATE : 14 NOV(MON) 2016<br/>
+		            	TIME : 10AM-2PM
 		            </h4>
 		          </div>
 		        </div>
 		        <div class="col-md-4 col-sm-6 col-xs-12">
-		          <div class="vc-one">
-		          	<span class="imgB1">
-		          		30 Days Left
-		          	</span>
-		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
+		          <div class="vc-one">		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
 		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
@@ -108,15 +100,14 @@
 					</div>
 		            <h4 class="text-center">
 		            	<b>Isyana Sarasvati's Gallery</b><br /><br />
-		            	IDR 50,000
+		            	COURSE FEE : IDR 400,000<br/>
+		            	DATE : 14 NOV(MON) 2016<br/>
+		            	TIME : 10AM-2PM
 		            </h4>
 		          </div>
 		        </div>
 		        <div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
-		          	<span class="imgB1">
-		          		30 Days Left
-		          	</span>
 		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
 		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk3.jpg')?>)">
 					  <div id="vc-overlay">
@@ -125,9 +116,11 @@
 					    </span>
 					  </div>
 					</div>
-		            <h4 class="text-center">
+		            <h4>
 		            	<b>Raisa Adriana's Gallery</b><br /><br />
-		            	IDR 50,000
+		            	COURSE FEE : IDR 400,000<br/>
+		            	DATE : 14 NOV(MON) 2016<br/>
+		            	TIME : 10AM-2PM
 		            </h4>
 		          </div>
 		        </div>

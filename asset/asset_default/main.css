@@ -235,6 +235,9 @@ a{
 .vc-dotted{
 	border-bottom: 1px dotted #1E1E20;
 }
+.vc-one {
+	color:#ffd633;
+}
 .vc-one a{
 	color:#1E1E20;
 	text-decoration:none;
@@ -444,7 +447,7 @@ a{
 }
 .vc-banner-capt{
 	margin-top:0px;
-	color:#915c3a;
+	color:#FFD633;
 	font-family: 'Questrial', sans-serif;
 }
 .bgimg-1, .bgimg-2, .bgimg-3{
