@@ -53,9 +53,7 @@
 				</div>
 			</div>
 			<div class="col-md-4 vc-footer-child text-center">
-				<h4 style="margin-left:15px">KNOWING US MORE</h4><br/>
-				<a href="#">FOUNDATION</a><br />
-				<a href="#">REPORT IMPACT</a><br />
+				<h4 style="margin-left:15px">CONTACT US</h4><br/>
 				<div class="vc-footer-child-box text-left">
 					<div class="row" style="padding:0px 5px 0px 5px">
 						<div class="col-md-1 col-sm-1 col-xs-1">
@@ -100,20 +98,16 @@
 	<div id="vc-bottom-footer">
 		<div class="container">
 			<div class="row text-center" style="background-color: #FFD633">
-				<div class="col-md-4 col-xs-12" style="margin-top:5px">
-					Partner with:
-					<img src="<?php echo base_url('asset/images/atamerica.png')?>" width="100" height="50" >
-					<img src="<?php echo base_url('asset/images/nutrifood.jpg')?>" width="60" height="50">
-				</div>
-				<div class="col-md-4 col-xs-12 text-center" style="margin-top:12px">
+				<div class="col-md-4 col-xs-12"></div>
+				<div class="col-md-4 col-xs-12 text-center">
+					<a href="#">Partner</a>
 					<a href="#">Press</a>
 					<a href="#">Terms & Condition</a>
 					<a href="#">Privacy</a><br/>
-					Developed by <a href="http://dzillaweb.com/">Dzilla Web</a><br/>		
+					Developed by <a href="http://dzillaweb.com/">Dzilla Web</a><br/>	
+					<p>&copy; 2016 Vorcee All Rights Reserved</p>	
 				</div>
-				<div class="col-md-4" style="margin-top:12px">
-					<p>&copy; 2016 Vorcee All Rights Reserved</p>
-				</div>
+				<div class="col-md-4" style="margin-top:12px"></div>
 			</div>
 		</div>
 	</div>
