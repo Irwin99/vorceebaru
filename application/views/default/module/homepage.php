@@ -1,9 +1,11 @@
 <?php $this->load->view('default/common/banner');?>
+<section id="video">
 <div style="margin-top:300px;">
 	<video loop width="100%" autoplay>
 		<source src="asset/video/video.mp4" type="video/mp4">
 	</video>
 </div>
+</section>
 <div class="container">
 		<div id="vc-discover">
 			<div class="row">

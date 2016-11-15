@@ -19,9 +19,9 @@
 					<div class="col-md-3"></div>
 				</div>
 			</div>
-			<div>
+			<div class="text-center tombol" style="margin-top:200px">
 				<a href="#video">
-					<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+					<i class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i>
 				</a>
 			</div>
 		</div>

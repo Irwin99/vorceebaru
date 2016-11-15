@@ -3,7 +3,7 @@
 <head>
 	<?php $this->load->view('default/common/header');?>
 </head>
-<body>
+<body data-spy="scroll">
 	<?php $this->load->view('default/common/nav');?>
 	<!-- <div id="vc-header">
 		<div class="container">
