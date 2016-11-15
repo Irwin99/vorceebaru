@@ -6,6 +6,7 @@ font-family: 'Roboto Condensed', sans-serif;
 */
 body{
 	font-family: 'Muli', sans-serif;
+	overflow-x: hidden;
 }
 a{
 	color: #333;
@@ -171,14 +172,19 @@ a{
     width: 100%;
     text-align: center;
     position: absolute;
-    top: 30%;
+    top: 10%;
     font-size: 5vw;
-    color: white;
+    color: #ffd633;
 	font-family: 'Muli', sans-serif;
 }
 .play-button-container p{
 	font-family: 'Muli', sans-serif;
 	font-size: 2vw;
+}
+.play-button-container a{
+	font-family: 'Muli', sans-serif;
+	font-size: 2vw;
+	color:#fff;
 }
 .play-button-container button{
 	background-color: #FFD633;
@@ -437,6 +443,27 @@ a{
     height: 20px;
 }
 .vc-banner-capt{
+	margin-top:0px;
 	color:#ffd633;
 	font-family: 'Questrial', sans-serif;
+}
+.bgimg-1, .bgimg-2, .bgimg-3{
+	position: relative;
+
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.bgimg-1{
+	background-image:url("../images/workshop.jpg");
+}
+.play-button-container button:hover {
+    background-color: #fff;
+    border: 1px solid #FFD633;
+    color: #1E1E20;
+    font-size: 18px;
+}
+.btn-tip button:hover{
+	background-color: #fff;
 }

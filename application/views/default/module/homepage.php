@@ -134,42 +134,19 @@
 		        <div class="clearfix"> </div>
 			</div>
 		</div>
-		<div id="vc-celebrand">
-		<div class="row">
-				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
-					
-				</div>
-				<div class="col-md-4 text-center col-xs-6 col-sm-4">
-					<h2 style="margin-top:-10px;">UPCOMING CAMPAIGNER</h2>	
-				</div>
-				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
-					
-				</div>
-		</div>
-		<div class="row" style="margin-bottom:5px">
-			<div class="col-md-4 col-sm-4 col-xs-6">
-				<img src="<?php echo base_url('asset/asset_default/images/brand1.jpg')?>" class="img-responsive">
-			</div>
-			<div class="col-md-4 col-sm-4 col-xs-6">
-				<img src="<?php echo base_url('asset/asset_default/images/brand2.jpg')?>" class="img-responsive">
-			</div>
-			<div class="col-md-4 col-sm-4 col-xs-6">
-				<img src="<?php echo base_url('asset/asset_default/images/brand3.jpg')?>" class="img-responsive">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 col-sm-4 col-xs-6">
-				<img src="<?php echo base_url('asset/asset_default/images/brand1.jpg')?>" class="img-responsive">
-			</div>
-			<div class="col-md-4 col-sm-4 col-xs-6">
-				<img src="<?php echo base_url('asset/asset_default/images/brand2.jpg')?>" class="img-responsive">
-			</div>
-			<div class="col-md-4 col-sm-4 col-xs-6">
-				<img src="<?php echo base_url('asset/asset_default/images/brand3.jpg')?>" class="img-responsive">
-			</div>
-		</div>
-		</div>
 	</div>
+	<div class="vc-banner bgimg-1" id="vc-banner">
+		<div class="overlay-image"></div>
+			<div class="play-button-container">
+				SEE WHAT WE DO<br/>
+				<h2>Get Involved with our foundation program.
+				<a href="#">Learn More</a></h2>
+				<button class="btn-tip" type="text" type="submit" style="width:50%">
+					Apply
+				</button>
+			</div>
+	</div>
+
 
 
 	<div id="vc-modal" class="modal fade" role="dialog">
