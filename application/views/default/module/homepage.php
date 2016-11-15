@@ -1,6 +1,6 @@
 <?php $this->load->view('default/common/banner');?>
 
-<div class="container">
+<div class="container" style="margin-top:120px">
 		<div id="vc-discover">
 			<div class="row">
 				<div class="col-md-4 vc-dotted hidden-xs col-sm-4">

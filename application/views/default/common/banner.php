@@ -1,9 +1,9 @@
 	 <div id="vc-banner">
-		<div class="banner" style="background-image:url(<?php echo base_url('asset/images/workshop.jpg')?>);height:500px" >
+		<div class="banner" style="background-image:url(<?php echo base_url('asset/images/workshop.jpg')?>);height:170%" >
 			<div class="vc-banner-capt text-center visible-lg">
 				<br/><br/><br/><br/><br/>
 				<h1>Hello, Creative People!</h1>
-				<h2>It's Vor Creative Indoestry. We are Pro Skill. Get Started on !</h2><br/>
+				<h2>It's Vor Creative Indoestry. We are Pro Skill</h2><br/>
 				<div class="row">
 					<div class="col-md-3"></div>
 					<div class="col-md-3 form-group">
