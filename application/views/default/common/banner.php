@@ -17,7 +17,12 @@
 						</button>
 					</div>
 					<div class="col-md-3"></div>
-					</div>
+				</div>
+			</div>
+			<div>
+				<a href="#video">
+					<i class="fa fa-angle-double-down" aria-hidden="true"></i>
+				</a>
 			</div>
 		</div>
 	</div> 
