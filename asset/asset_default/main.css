@@ -466,15 +466,6 @@ a{
 	background-image:url("../images/workshop.jpg");
 	background-color: rgba(97, 97, 97, 0.5);
 }
-.play-button-container button:hover {
-    background-color: #fff;
-    border: 1px solid #FFD633;
-    color: #1E1E20;
-    font-size: 18px;
-}
-.btn-tip button:hover{
-	background-color: #fff;
-}
 .tombol{
 	color:#ffd633;
 }
@@ -513,4 +504,8 @@ color: #ffd633 !important;
  
 input:-ms-input-placeholder {  
 color: #ffd633 !important;  
+}
+
+.overlay-workshop { 
+	padding:60% 0 60% 0;
 }

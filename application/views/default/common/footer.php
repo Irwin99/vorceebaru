@@ -85,10 +85,9 @@
 				<div class="row text-center" id="vc-social">
 					<i class="fa fa-facebook fa-2x"></i>
 					<i class="fa fa-twitter fa-2x"></i>
-					<i class="fa fa-pinterest-p fa-2x"></i>
+					<i class="fa fa-linkedin fa-2x"></i>
 					<i class="fa fa-instagram fa-2x"></i>
 					<i class="fa fa-youtube-play fa-2x"></i>
-					<i class="fa fa-tumblr fa-2x"></i>
 				</div>
 			</div>
 		</div>

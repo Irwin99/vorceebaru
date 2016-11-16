@@ -42,9 +42,8 @@
 						<span>Share on: </span>
 						<i class="fa fa-facebook fa-2x"></i>
 						<i class="fa fa-twitter fa-2x"></i>
-						<i class="fa fa-pinterest-p fa-2x"></i>
+						<i class="fa fa-linkedin fa-2x"></i>
 						<i class="fa fa-instagram fa-2x"></i>
-						<i class="fa fa-tumblr fa-2x"></i>
 					</div>
 				</div>
 				</div>

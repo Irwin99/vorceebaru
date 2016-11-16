@@ -28,7 +28,9 @@
 		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
-					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
+					    	<a href="<?php echo base_url('page/view-product/')?>">
+		                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+		                    </a>
 					    </span>
 					  </div>
 					</div>
@@ -47,7 +49,9 @@
 		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
-					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
+					    	<a href="<?php echo base_url('page/view-product/')?>">
+		                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+		                    </a>
 					    </span>
 					  </div>
 					</div>
@@ -66,7 +70,9 @@
 		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
-					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
+					    	<a href="<?php echo base_url('page/view-product/')?>">
+		                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+		                    </a>
 					    </span>
 					  </div>
 					</div>
@@ -88,7 +94,9 @@
 		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
-					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
+					    	<a href="<?php echo base_url('page/view-product/')?>">
+		                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+		                    </a>
 					    </span>
 					  </div>
 					</div>
@@ -107,7 +115,9 @@
 		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
-					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
+					    	<a href="<?php echo base_url('page/view-product/')?>">
+		                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+		                    </a>
 					    </span>
 					  </div>
 					</div>
@@ -126,7 +136,9 @@
 		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
-					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
+					    	<a href="<?php echo base_url('page/view-product/')?>">
+		                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+		                    </a>
 					    </span>
 					  </div>
 					</div>
