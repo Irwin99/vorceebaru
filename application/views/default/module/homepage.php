@@ -25,7 +25,7 @@
 		            	Time : 10AM-2PM
 		            </h4>
 		          </div>
-		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
@@ -44,7 +44,7 @@
 		            	Time : 10AM-2PM
 		            </h4>
 		          </div>
-		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
@@ -63,7 +63,7 @@
 		            	Time : 10AM-2PM
 		            </h4>
 		          </div>
-		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
@@ -85,7 +85,7 @@
 		            	Time : 10AM-2PM
 		            </h4>
 		          </div>
-		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
@@ -104,7 +104,7 @@
 		            	Time : 10AM-2PM
 		            </h4>
 		          </div>
-		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
@@ -123,7 +123,7 @@
 		            	Time : 10AM-2PM
 		            </h4>
 		          </div>
-		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+		            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>

@@ -498,3 +498,19 @@ a{
 .text-img{
 	opacity:1;
 }
+
+input::-webkit-input-placeholder {
+color: #ffd633 !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #ffd633 !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #ffd633 !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #ffd633 !important;  
+}

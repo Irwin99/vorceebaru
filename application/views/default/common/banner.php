@@ -1,7 +1,7 @@
 	 <div id="vc-banner">
 		<div class="banner" >
 			
-			<div class="vc-banner-capt text-center visible-lg">
+			<div class="vc-banner-capt text-center">
 				<video style="position:relative;z-index: -1;" muted loop width="100%" autoplay>
 					<source src="asset/video/video.mp4" type="video/mp4">
 				</video>

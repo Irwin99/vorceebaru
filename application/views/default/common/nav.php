@@ -73,7 +73,7 @@
 					</nav>
 				</div>
 				<div class="col-md-2 col-sm-8 col-xs-12" id="vc-search-top">
-					<i class="fa fa-search fa-fw"></i>
+					<i class="fa fa-search fa-fw" style="color:#ffd633"></i>
 	          	  	<input type="text" name="search" placeholder="Search" class="form-search">
 				</div>
 
