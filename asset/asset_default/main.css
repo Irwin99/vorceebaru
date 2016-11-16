@@ -157,7 +157,6 @@ a{
 #vc-play-video .overlay-image{
 	border-top: 1px solid #e0e0e0;
 	margin: 20px 0px 0px 0px;
-    position: absolute;
     display: block;
     top: 0;
     height: 100%;
@@ -166,7 +165,6 @@ a{
 .play-button-container {
     width: 100%;
     text-align: center;
-    position: absolute;
     top: 10%;
     font-size: 5vw;
     color: #ffd633;
@@ -272,7 +270,15 @@ a{
 	border-width: 3px;
 }
 .imgA1 { position:absolute; top: 0px; left: 0px; z-index: 1; }
-.imgB1 { background-color: #FFD633; position:absolute; top: 5px; left: 20px; z-index: 3;padding:5px; color:#1E1E20;}
+.imgB1 { 
+	position:absolute; 
+	z-index: 3;
+	padding:5px; 
+	color:#1E1E20;
+	height:100%;
+	width:50%;
+	background-color: rgba(255, 214, 51, 0.5);
+}
 .container-po { position:relative; }
 .btn-tip{
 	background-color: #FFD633;
@@ -449,7 +455,7 @@ a{
 }
 .bgimg-1, .bgimg-2, .bgimg-3{
 	position: relative;
-
+	height:100%;
 	background-attachment:fixed;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -478,4 +484,17 @@ a{
 }
 .tombol a:hover{
 	border:none;
+}
+.bg-gambar{
+	height:100%;
+	background-image:url('images/workshop2.jpg')
+}
+.transbox{
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.text-img{
+	opacity:1;
 }

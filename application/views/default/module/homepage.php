@@ -17,56 +17,59 @@
 			<div class="row" id="row-recommendonation">
 				<div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
-		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
-		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
-					  <div id="vc-overlay">
-					    <span id="vc-plus">
-					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
-					    </span>
-					  </div>
-					</div>
-		            <h4>
-		            	<b>Andien Aisyah's Gallery</b><br /><br />
-		            	COURSE FEE : IDR 400,000<br/>
-		            	DATE : 14 NOV(MON) 2016<br/>
-		            	TIME : 10AM-2PM
-		            </h4>
-		          </div>
-		        </div>
-		        <div class="col-md-4 col-sm-6 col-xs-12">
-		          <div class="vc-one">
-		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
-		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk2.jpg')?>)">
-					  <div id="vc-overlay">
-					    <span id="vc-plus">
-					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
-					    </span>
-					  </div>
-					</div>
-		            <h4>
+		          <div class="imgB1">
+		          	<h4 style="margin-top:300px">
 		            	<b>Isyana Sarasvati's Gallery</b><br /><br />
-		            	COURSE FEE : IDR 400,000<br/>
-		            	DATE : 14 NOV(MON) 2016<br/>
-		            	TIME : 10AM-2PM
+		            	Course Fee : IDR 400,000<br/>
+		            	Date : 14 Nov(Mon) 2016<br/>
+		            	Time : 10AM-2PM
 		            </h4>
 		          </div>
-		        </div>
-		        <div class="col-md-4 col-sm-6 col-xs-12">
-		          <div class="vc-one">
-		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
-		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk3.jpg')?>)">
+		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
 					    </span>
 					  </div>
 					</div>
-		            <h4>
-		            	<b>Raisa Adriana's Gallery</b><br /><br />
-		            	COURSE FEE : IDR 400,000<br/>
-		            	DATE : 14 NOV(MON) 2016<br/>
-		            	TIME : 10AM-2PM
+		          </div>
+		        </div>
+		        <div class="col-md-4 col-sm-6 col-xs-12">
+		          <div class="vc-one">
+		          <div class="imgB1">
+		          	<h4 style="margin-top:300px">
+		            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+		            	Course Fee : IDR 400,000<br/>
+		            	Date : 14 Nov(Mon) 2016<br/>
+		            	Time : 10AM-2PM
 		            </h4>
+		          </div>
+		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+					  <div id="vc-overlay">
+					    <span id="vc-plus">
+					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
+					    </span>
+					  </div>
+					</div>
+		          </div>
+		        </div>
+		        <div class="col-md-4 col-sm-6 col-xs-12">
+		          <div class="vc-one">
+		          <div class="imgB1">
+		          	<h4 style="margin-top:300px">
+		            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+		            	Course Fee : IDR 400,000<br/>
+		            	Date : 14 Nov(Mon) 2016<br/>
+		            	Time : 10AM-2PM
+		            </h4>
+		          </div>
+		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+					  <div id="vc-overlay">
+					    <span id="vc-plus">
+					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
+					    </span>
+					  </div>
+					</div>
 		          </div>
 		        </div>
 		        <div class="clearfix"> </div>
@@ -74,71 +77,74 @@
 			<div class="row" id="row-recommendonation">
 				<div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
-		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
-		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk1.jpg')?>)">
-					  <div id="vc-overlay">
-					    <span id="vc-plus">
-					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
-					    </span>
-					  </div>
-					</div>
-		            <h4>
-		            	<b>Andien Aisyah's Gallery</b><br /><br />
-		            	COURSE FEE : IDR 400,000<br/>
-		            	DATE : 14 NOV(MON) 2016<br/>
-		            	TIME : 10AM-2PM
+		          <div class="imgB1">
+		          	<h4 style="margin-top:300px">
+		            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+		            	Course Fee : IDR 400,000<br/>
+		            	Date : 14 Nov(Mon) 2016<br/>
+		            	Time : 10AM-2PM
 		            </h4>
 		          </div>
-		        </div>
-		        <div class="col-md-4 col-sm-6 col-xs-12">
-		          <div class="vc-one">		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
-		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk2.jpg')?>)">
+		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
 					    </span>
 					  </div>
 					</div>
-		            <h4>
-		            	<b>Isyana Sarasvati's Gallery</b><br /><br />
-		            	COURSE FEE : IDR 400,000<br/>
-		            	DATE : 14 NOV(MON) 2016<br/>
-		            	TIME : 10AM-2PM
-		            </h4>
 		          </div>
 		        </div>
 		        <div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
-		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
-		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk3.jpg')?>)">
+		          <div class="imgB1">
+		          	<h4 style="margin-top:300px">
+		            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+		            	Course Fee : IDR 400,000<br/>
+		            	Date : 14 Nov(Mon) 2016<br/>
+		            	Time : 10AM-2PM
+		            </h4>
+		          </div>
+		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
 					    </span>
 					  </div>
 					</div>
-		            <h4>
-		            	<b>Raisa Adriana's Gallery</b><br /><br />
-		            	COURSE FEE : IDR 400,000<br/>
-		            	DATE : 14 NOV(MON) 2016<br/>
-		            	TIME : 10AM-2PM
+		          </div>
+		        </div>
+		        <div class="col-md-4 col-sm-6 col-xs-12">
+		          <div class="vc-one">
+		          <div class="imgB1">
+		          	<h4 style="margin-top:300px">
+		            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+		            	Course Fee : IDR 400,000<br/>
+		            	Date : 14 Nov(Mon) 2016<br/>
+		            	Time : 10AM-2PM
 		            </h4>
+		          </div>
+		            <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+					  <div id="vc-overlay">
+					    <span id="vc-plus">
+					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
+					    </span>
+					  </div>
+					</div>
 		          </div>
 		        </div>
 		        <div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	<div class="bgimg-1" id="vc-banner">
-		<div class="overlay-image"></div>
-			<div class="play-button-container">
-				SEE WHAT WE DO<br/>
-				<h2>Get Involved with our foundation program.
-				<a href="#">Learn More</a></h2>
-				<button class="btn-tip" type="text" type="submit" style="width:50%">
-					Apply
-				</button>
+	<div class="bgimg-1">
+		<div class="overlay-image play-button-container">
+			SEE WHAT WE DO<br />
+			<h2>Get Involved with our foundation program! 
+			<a href="#">Learn More</a></h2>
+			<div class="form-group">
+				<button class="btn-tip" type="text" type="submit" style="width:50%">Apply Now</button>
 			</div>
+		</div>
 	</div>
 
 
