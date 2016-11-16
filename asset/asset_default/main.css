@@ -139,16 +139,14 @@ a{
 	text-decoration: none;
 }
 #vc-banner{
-	height: 400px;
+	height:100%;
 }
 #vc-banner .banner{
-	width : auto;
-    height: 550px;
+
     background-repeat: no-repeat;
     background-position: center;
     background-size : cover;
-	border-top: 1px solid #e0e0e0;
-	border-bottom: 1px solid #e0e0e0;
+
 }
 #vc-play-video{
 	border-bottom: 1px solid #e0e0e0;
@@ -193,7 +191,8 @@ a{
 	font-size:18px;
 }
 #vc-discover{
-	margin: 50px 0 50px 0;
+	margin: 150px 0 50px 0;
+	padding-top:20px;
 }
 #vc-discover h2{
 	background-color: #fff;
@@ -335,6 +334,7 @@ a{
 }
 #vc-bottom-footer a{
 	color:#333;
+	margin-left:10px;
 }
 
 #vc-box{  
@@ -471,47 +471,13 @@ a{
 .btn-tip button:hover{
 	background-color: #fff;
 }
-.tombol a{
+.tombol{
 	color:#ffd633;
 }
-       #animated_div
-        {
-            text-align:center;
-            width:60px;
-            height:40px;
-            background:#6699FF;
-            color:#ffffff;
-            position:relative;
-            font-weight:bold;
-            font-size:20px;
-            padding:10px;
-            animation:animated_div 5s infinite;
-            -moz-animation:animated_div 5s infinite;
-            -webkit-animation:animated_div 5s infinite;
-            border-radius:5px;
-            -webkit-border-radius:5px;
-        }
-          
-        @keyframes animated_div
-        {
-            0%   {bottom:0px;}
-            50%  {bottom:50px; background-color: green;}
-            100%  {bottom:140px; background-color: red;}
-
-        }
-          
-        @-webkit-keyframes animated_div
-        {
-            0%   {bottom:0px;}
-            50%  {bottom:50px; background-color: green; margin-top: 50px;}
-            100%  {bottom:140px; background-color: red;margin-top: 0px;}
-
-        }
-          
-        @-moz-keyframes animated_div
-        {
-            0%   {bottom:0px;}
-            50%  {bottom:50px; background-color: green;}
-            100%  {bottom:140px; background-color: red;}
-
-        }
+.tombol a{
+	color:#ffd633;
+	border:none;
+}
+.tombol a:hover{
+	border:none;
+}

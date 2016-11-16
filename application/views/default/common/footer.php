@@ -98,8 +98,9 @@
 	<div id="vc-bottom-footer">
 		<div class="container">
 			<div class="row text-center" style="background-color: #FFD633">
-				<div class="col-md-4 col-xs-12"></div>
-				<div class="col-md-4 col-xs-12 text-center">
+				<div class="col-md-3 col-xs-12"></div>
+				<div class="col-md-6 col-xs-12 text-center">
+					<a href="#">Report Impact</a>
 					<a href="#">Partner</a>
 					<a href="#">Press</a>
 					<a href="#">Terms & Condition</a>
@@ -107,10 +108,9 @@
 					Developed by <a href="http://dzillaweb.com/">Dzilla Web</a><br/>	
 					<p>&copy; 2016 Vorcee All Rights Reserved</p>	
 				</div>
-				<div class="col-md-4" style="margin-top:12px"></div>
+				<div class="col-md-3" style="margin-top:12px"></div>
 			</div>
 		</div>
 	</div>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+	
+    <script src="asset/asset_default/js/bootstrap.min.js"></script>

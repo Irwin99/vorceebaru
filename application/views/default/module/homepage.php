@@ -1,12 +1,6 @@
 <?php $this->load->view('default/common/banner');?>
-<section id="video">
-<div style="margin-top:300px;">
-	<video loop width="100%" autoplay>
-		<source src="asset/video/video.mp4" type="video/mp4">
-	</video>
-</div>
-</section>
 <div class="container">
+	<section id="scroll">
 		<div id="vc-discover">
 			<div class="row">
 				<div class="col-md-4 vc-dotted hidden-xs col-sm-4">
@@ -19,11 +13,12 @@
 					
 				</div>
 			</div>
+	<section>
 			<div class="row" id="row-recommendonation">
 				<div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
 		            <!-- <a href="single.html"><img src="product1.jpg" alt="" class="img-responsive" /></a> -->
-		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/asset_default/images/produk1.jpg')?>)">
+		            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 					  <div id="vc-overlay">
 					    <span id="vc-plus">
 					    	<button class="btn-tip" data-toggle="modal" data-target="#vc-modal">Buy & Donate</button>
@@ -134,7 +129,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="vc-banner bgimg-1" id="vc-banner">
+	<div class="bgimg-1" id="vc-banner">
 		<div class="overlay-image"></div>
 			<div class="play-button-container">
 				SEE WHAT WE DO<br/>
