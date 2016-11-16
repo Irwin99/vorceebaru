@@ -10,7 +10,6 @@
 <script src="<?php echo base_url('asset/asset_lte/bootstrap/js/bootstrap.min.js') ?>"></script>
 <!-- Morris.js charts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="<?php echo base_url('asset/asset_lte/plugins/morris/morris.min.js') ?>"></script>
 <!-- Sparkline -->
 <script src="<?php echo base_url('asset/asset_lte/plugins/sparkline/jquery.sparkline.min.js') ?>"></script>
 <!-- jvectormap -->
@@ -31,13 +30,3 @@
 <script src="<?php echo base_url('asset/asset_lte/plugins/fastclick/fastclick.js') ?>"></script>
 <!-- AdminLTE App -->
 <script src="<?php echo base_url('asset/asset_lte/dist/js/app.min.js') ?>"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="<?php echo base_url('asset/asset_lte/dist/js/pages/dashboard.js') ?>"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="<?php echo base_url('asset/asset_lte/dist/js/demo.js') ?>"></script>
-
-
-<!-- DataTables JS -->
-<script src="<? echo base_url() ?>asset/plugins/datatables/media/js/jquery.dataTables.min.js"></script>
-<script src="<? echo base_url() ?>asset/plugins/datatables/media/js/dataTables.bootstrap.min.js"></script>
-<script src="<? echo base_url() ?>asset/plugins/datatables/media/js/jquery.dataTables.dd-mmm-yyyy.js"></script>

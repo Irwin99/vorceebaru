@@ -56,15 +56,27 @@ class User extends CI_Controller {
 			$this->form_validation->set_rules('status_user','Status','required');
 			$this->form_validation->set_rules('about_user','About User','required');
 			$this->form_validation->set_rules('permission','Permission','required');
-
 			if(!$this->form_validation->run()){
+				$data['error'] = false;
 				$this->load->view('admin/index',$data);
 			}
 			else{
-				$save = $this->mus->saveUser($_POST);
+				$config['upload_path'] = './asset/images/user';
+				$config['allowed_types'] = 'gif|jpg|png';
+				$config['max_size']	= '8000';
+
+				$this->load->library('upload', $config);
+				if ( ! $this->upload->do_upload()){
+					$data['error'] = $this->upload->display_errors();
+					$this->load->view('admin/index',$data);
+				}
+
+			else{
+				$save = $this->mus->saveUser($_POST,$this->upload->data());
 				redirect(base_url($this->uri->segment(1).'/user/manage_user'));
 			}
 		}
+	}
 
 		function edit_user(){
 			$data['title_web'] = 'Edit User | Adminpanel Vorcee';
@@ -86,15 +98,29 @@ class User extends CI_Controller {
 			$this->form_validation->set_rules('status_user','Status','required');
 			$this->form_validation->set_rules('about_user','About User','required');
 			$this->form_validation->set_rules('permission','Permission','required');
-
 			if(!$this->form_validation->run()){
+				$data['error'] = false;
 				$this->load->view('admin/index',$data);
 			}
 			else{
-				$save = $this->mus->editUser($_POST,$id);
+				$config['upload_path'] = './asset/images/user';
+				$config['allowed_types'] = 'gif|jpg|png';
+				$config['max_size']	= '8000';
+
+
+
+			$this->load->library('upload', $config);
+			if ( ! $this->upload->do_upload()){
+				$save = $this->mus->editUser($_POST,FALSE,$id);
 				redirect(base_url($this->uri->segment(1).'/user/manage_user'));
 			}
+
+		else{
+			$save = $this->mus->editUser($_POST,$this->upload->data(),$id);
+			redirect(base_url($this->uri->segment(1).'/user/manage_user'));
 		}
+	}
+	}
 		function delete_user(){
 			$id = $this->uri->segment(4);
 			$this->db->where('id_user',$id);

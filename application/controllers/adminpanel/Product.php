@@ -47,7 +47,10 @@ class product extends CI_Controller {
 		$data['category'] = $this->mp->fetchAllCategory();
 		$data['user'] = $this->mp->fetchAllUser();
 		$this->form_validation->set_rules('category','Category Name','required');
+		$this->form_validation->set_rules('user','Campaigner','required');
 		$this->form_validation->set_rules('name_product','Product Name','required');
+		$this->form_validation->set_rules('dimension','Dimension','required');
+		$this->form_validation->set_rules('material','Material','required');
 		$this->form_validation->set_rules('start_price',' Start Price','required|numeric');
 		$this->form_validation->set_rules('current_price','Current Price','required|numeric');
 		$this->form_validation->set_rules('about_product','About','required');
@@ -85,7 +88,10 @@ class product extends CI_Controller {
 		if($data['result']==FALSE)
 			redirect(base_url('adminpanel/product/manage_product'));
 			$this->form_validation->set_rules('category','Category Name','required');
+			$this->form_validation->set_rules('user','Campaigner','required');
 			$this->form_validation->set_rules('name_product','Product Name','required');
+			$this->form_validation->set_rules('dimension','Dimension','required');
+			$this->form_validation->set_rules('material','Material','required');
 			$this->form_validation->set_rules('start_price',' Start Price','required|numeric');
 			$this->form_validation->set_rules('current_price','Current Price','required|numeric');
 			$this->form_validation->set_rules('about_product','About','required');

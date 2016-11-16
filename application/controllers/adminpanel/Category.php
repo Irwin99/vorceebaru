@@ -56,8 +56,8 @@ class category extends CI_Controller {
 
 			$this->load->library('upload', $config);
 			if ( ! $this->upload->do_upload()){
-				$data['error'] = $this->upload->display_errors();
-				$this->load->view('admin/index',$data);
+				$save = $this->mcr->saveCategory($_POST,FALSE);
+				redirect(base_url($this->uri->segment(1).'/category/manage_category'));
 			}
 
 		else{

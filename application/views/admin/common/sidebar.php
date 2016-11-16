@@ -11,15 +11,12 @@
           </span>
     </div>
   </form>
-  <!-- /.search form -->
-  <!-- sidebar menu: : style can be found in sidebar.less -->
   <ul class="sidebar-menu">
     <li class="header">MAIN NAVIGATION</li>
     <li class="active treeview">
       <a href="<?php echo base_url('adminpanel/dashboard')?>">
         <i class="fa fa-dashboard"></i> <span>Dashboard</span>
       </a>
-
     </li>
     <li class="treeview">
       <a href="#">
@@ -43,26 +40,9 @@
         <li><a href="<?php echo base_url('adminpanel/category/manage_category') ?>"><i class="fa fa-sitemap"></i> manage category</a></li>
         <li><a href="<?php echo base_url('adminpanel/product/add_product') ?>"><i class="fa fa-plus"></i> add product</a></li>
         <li><a href="<?php echo base_url('adminpanel/product/manage_product') ?>"><i class="fa fa-tags"></i> manage product</a></li>
-        <li><a href="<?php echo base_url('adminpanel/ads/add_ads') ?>"><i class="fa fa-plus"></i> add ads</a></li>
-        <li><a href="<?php echo base_url('adminpanel/ads/manage_ads') ?>"><i class="fa fa-tags"></i> manage ads</a></li>
-        <li><a href="<?php echo base_url('adminpanel/ads/add_hit_ads') ?>"><i class="fa fa-plus"></i> add hit ads</a></li>
-        <li><a href="<?php echo base_url('adminpanel/ads/manage_hit_ads') ?>"><i class="fa fa-tags"></i> manage hit ads</a></li>
-        <li><a href="<?php echo base_url('adminpanel/banner/add_banner') ?>"><i class="fa fa-plus"></i> add banner</a></li>
-        <li><a href="<?php echo base_url('adminpanel/banner/manage_banner') ?>"><i class="fa fa-tags"></i> manage banner</a></li>
+        <li><a href="<?php echo base_url('adminpanel/workshop/add_workshop') ?>"><i class="fa fa-plus"></i> add workshop</a></li>
+        <li><a href="<?php echo base_url('adminpanel/workshop/manage_workshop') ?>"><i class="fa fa-tags"></i> manage workshop</a></li>
         </ul>
-    </li>
-    <li class="treeview">
-      <a href="#">
-        <i class="fa fa-truck" aria-hidden="true"></i>
-        <span>Delivery</span>
-        <span class="label label-primary pull-right"></span>
-      </a>
-      <ul class="treeview-menu">
-        <li><a href="<?php echo base_url('adminpanel/delivery/add_delivery') ?>"><i class="fa fa-plus"></i> add delivery slips</a></li>
-        <li><a href="<?php echo base_url('adminpanel/delivery/manage_delivery') ?>"><i class="fa fa-file-o"></i> manage delivery slips</a></li>
-        <li><a href="<?php echo base_url('adminpanel/shipping/add_shipping') ?>"><i class="fa fa-plus"></i> add shipping</a></li>
-        <li><a href="<?php echo base_url('adminpanel/shipping/manage_shipping') ?>"><i class="fa fa-truck"></i> manage shipping</a></li>
-      </ul>
     </li>
     <li class="treeview">
       <a href="#">
@@ -87,40 +67,25 @@
     </li>
     <li class="treeview">
       <a href="#">
-        <i class="fa fa-book" aria-hidden="true"></i>
-        <span>Promotion</span>
+        <i class="fa fa-money" aria-hidden="true"></i>
+        <span>Payment</span>
         <span class="label label-primary pull-right"></span>
       </a>
       <ul class="treeview-menu">
-        <li><a href="<?php echo base_url('adminpanel/promotion/add_promotion') ?>"><i class="fa fa-plus"></i>add promotion</a></li>
-        <li><a href="<?php echo base_url('adminpanel/promotion/manage_promotion') ?>"><i class="fa fa-book"></i>manage_promotion</a></li>
+        <li><a href="<?php echo base_url('adminpanel/payment/add-payment') ?>"><i class="fa fa-plus"></i>Add Payment</a></li>
+          <li><a href="<?php echo base_url('adminpanel/payment/manage-payment') ?>"><i class="fa fa-shopping-cart"></i>Manage Payment</a></li>
       </ul>
     </li>
     <li class="treeview">
       <a href="#">
-        <i class="fa fa-ticket" aria-hidden="true"></i>
-        <span>Voucher</span>
+        <i class="fa fa-users" aria-hidden="true"></i>
+        <span>Class</span>
         <span class="label label-primary pull-right"></span>
       </a>
       <ul class="treeview-menu">
-        <li><a href="<?php echo base_url('adminpanel/voucher/add_voucher') ?>"><i class="fa fa-plus"></i>add voucher</a></li>
-        <li><a href="<?php echo base_url('adminpanel/voucher/manage_voucher') ?>"><i class="fa fa-ticket"></i>manage voucher</a></li>
+        <li><a href="<?php echo base_url('adminpanel/class/add-class') ?>"><i class="fa fa-plus"></i>Add Class</a></li>
+          <li><a href="<?php echo base_url('adminpanel/class/manage-class') ?>"><i class="fa fa-shopping-cart"></i>Manage Class</a></li>
       </ul>
     </li>
-    <li class="treeview">
-      <a href="#">
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-        <span>Order</span>
-        <span class="label label-primary pull-right"></span>
-      </a>
-      <ul class="treeview-menu">
-        <li><a href="<?php echo base_url('adminpanel/order/manage-order') ?>"><i class="fa fa-plus"></i>manage order</a></li>
-          <li><a href="<?php echo base_url('adminpanel/order/manage-confirm-payment') ?>"><i class="fa fa-shopping-cart"></i>manage confirm payment</a></li>
-      </ul>
-    </li>
-
-
-
-
 </section>
 <!-- /.sidebar -->

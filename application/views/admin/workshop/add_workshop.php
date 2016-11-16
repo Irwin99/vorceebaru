@@ -3,11 +3,11 @@
   <div class="col-md-12">
   <div class="box box-primary">
   <div class="box-header with-border">
-    <h3 class="box-title">Add product</h3>
+    <h3 class="box-title">Add Workshop</h3>
   </div>
   <!-- /.box-header -->
   <div class="box-body">
-    <?php if(!$this->form_validation->run() && isset($_POST['name_product'])){ ?>
+    <?php if(!$this->form_validation->run() && isset($_POST['workshop_title'])){ ?>
     <div class="alert alert-warning alert-dismissible">
       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
       <h4><i class="icon fa fa-warning"></i> Alert!</h4>
@@ -38,72 +38,45 @@
 
          ?>
         </div>
-        <div class="form-group">
-          <label>username</label>
-          <?php
 
-            $options = array();
-            if($user!=FALSE){
-
-              foreach ($user as $rows) {
-
-                  $options[$rows->id_user] = $rows->full_name;
-              }
-              echo form_dropdown('user',$options,set_value('user'),"class='form-control'");
-            }
-
-
-           ?>
-          </div>
       <div class="form-group">
-        <label>product Name </label>
-        <input type="text" class="form-control"  name="name_product" value="<?php echo set_value('name_product')?>">
+        <label>Workshop Title </label>
+        <input type="text" class="form-control"  name="workshop_title" value="<?php echo set_value('workshop_title')?>">
         </div>
       <div class="form-group">
-        <label>Start Price </label>
-        <input type="text" class="form-control"  name="start_price" value="<?php echo set_value('start_price')?>">
+        <label>Course Fee </label>
+        <input type="text" class="form-control"  name="course_fee" value="<?php echo set_value('course_fee')?>">
       </div>
       <div class="form-group">
-        <label>Current Price </label>
-        <input type="text" class="form-control"  name="current_price" value="<?php echo set_value('current_price')?>">
+        <label>hour Start </label>
+        <input type="text" class="form-control"  name="hour_start" value="<?php echo set_value('hour_start')?>">
+      </div>
+      <div class="form-group">
+        <label>hour End </label>
+        <input type="text" class="form-control"  name="hour_end" value="<?php echo set_value('hour_end')?>">
       </div>
       <div class="form-group">
         <label>Image</label>
         <input type="file" class="form-control"  name="userfile">
       </div>
       <div class="form-group">
-        <label>About Product </label>
-        <textarea class="form-control" rows="3"  name="about_product" ><?php echo set_value('about_product')?></textarea>
+        <label>Description </label>
+        <textarea class="form-control" rows="3"  name="workshop_description" ><?php echo set_value('workshop_description')?></textarea>
       </div>
+
       <div class="form-group">
-        <label>Dimension </label>
-        <input type="text" class="form-control"  name="dimension" value="<?php echo set_value('dimension')?>">
-      </div>
-      <div class="form-group">
-        <label>Material </label>
-        <input type="text" class="form-control"  name="material" value="<?php echo set_value('material')?>">
-      </div>
-      <div class="form-group">
-        <label>Date End Campagin:</label>
+        <label>Date workshop:</label>
 
         <div class="input-group">
           <div class="input-group-addon">
             <i class="fa fa-clock-o"></i>
           </div>
           <!--<input type="text" class="form-control pull-right"  name="date_end_campaign" value="">-->
-          <input type="text" class="form-control pull-right" id="datepicker">
+          <input type="date" class="form-control pull-right" id="datepicker" name="date_workshop">
         </div>
         <!-- /.input group -->
       </div>
-      <div class="form-group">
-        <label>Status Product</label>
-        <select class="form-control" name="status_product" value="<?php echo set_value('status_product')?>">
-          <option value="0">Pending</option>
-          <option value="1">Active</option>
-          <option value="2">Sold</option>
-          <option value-"3">Rejected</option>
-        </select>
-      </div>
+
 
       </div>
 

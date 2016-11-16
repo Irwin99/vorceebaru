@@ -38,6 +38,23 @@
 
          ?>
         </div>
+        <div class="form-group">
+          <label>username</label>
+          <?php
+
+            $options = array();
+            if($user!=FALSE){
+
+              foreach ($user as $rows) {
+
+                  $options[$rows->id_user] = $rows->full_name;
+              }
+              echo form_dropdown('user',$options,$result['id_campaigner'],"class='form-control'");
+            }
+
+
+           ?>
+          </div>
       <div class="form-group">
         <label>product Name </label>
         <input type="text" class="form-control"  name="name_product" value="<?php echo $result['name_product']?>">
@@ -57,6 +74,14 @@
       <div class="form-group">
         <label>About Product </label>
         <textarea class="form-control" rows="3"  name="about_product" ><?php echo $result['about_product']?></textarea>
+      </div>
+      <div class="form-group">
+        <label>Dimension </label>
+        <input type="text" class="form-control"  name="dimension" value="<?php echo $result['dimension']?>">
+      </div>
+      <div class="form-group">
+        <label>Material </label>
+        <input type="text" class="form-control"  name="material" value="<?php echo $result['material']?>">
       </div>
       <div class="form-group">
         <label>Date End Campagin:</label>

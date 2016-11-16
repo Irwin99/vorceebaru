@@ -33,6 +33,7 @@
     <table id="example1" class="table table-bordered table-striped">
       <thead>
       <tr>
+        <th>Avatar</th>
         <th>Username</th>
         <th>Full Name</th>
         <th>Email</th>
@@ -50,6 +51,11 @@
       			foreach ($results as $rows) {
       				?>
       				<tr>
+                <td><?php if($rows->avatar!= "") {
+                  ?>
+                  <img src="<?php echo base_url($rows->avatar)?>" height="150px;" >
+                  <?php
+                } ?></td>
                 <td><?php echo $rows->username ?></td>
                 <td><?php echo $rows->full_name ?></td>
                 <td><?php echo $rows->email ?></td>
@@ -73,6 +79,7 @@
       </tbody>
       <tfoot>
       <tr>
+        <th>Avatar</th>
         <th>Username</th>
         <th>Full Name</th>
         <th>Email</th>

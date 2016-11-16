@@ -23,7 +23,6 @@
 <!-- Date Picker -->
 <!-- Daterange picker -->
 <link rel="stylesheet" href="<?php echo base_url('asset/asset_lte/plugins/daterangepicker/daterangepicker-bs3.css')?>">
-<link href="<?php echo base_url('asset/plugins/datatables/media/css/jquery.dataTables.css') ?>" rel="stylesheet" />
 <!-- bootstrap wysihtml5 - text editor -->
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

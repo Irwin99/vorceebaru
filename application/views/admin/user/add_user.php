@@ -13,7 +13,13 @@
       <h4><i class="icon fa fa-warning"></i> Alert!</h4>
       <?php echo validation_errors()?>
     </div>
-    <?php } ?>
+  }
+    <?php if(isset($error)){
+    echo $error;
+  }
+    ?>
+    <?php echo form_open_multipart('');?>
+
     <form role="form" method="POST" action="">
       <!-- text input -->
       <div class="form-group">
@@ -25,6 +31,10 @@
         <input type="password" class="form-control" placeholder="password" name="password">
       </div>
 
+      <div class="form-group">
+        <label>Image</label>
+        <input type="file" class="form-control"  name="userfile">
+      </div>
       <!-- textarea -->
       <div class="form-group">
         <label>Email</label>

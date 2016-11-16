@@ -60,7 +60,7 @@
                 <td><?php echo $rows->about_product ?></td>
                 <td><?php echo $rows->date_product ?></td>
                 <td><?php echo $rows->date_end_campaign ?></td>
-                <td><?php echo $rows->username_campaigner ?></td>
+                <td><?php echo $rows->username_campaigner?></td>
                 <td><?php echo $rows->username?></td>
                   <td>
                   <a href ="<?php echo base_url('adminpanel/product/edit_product/'.$rows->id_product)?>">Edit</a> |
