@@ -25,11 +25,11 @@
 					<img class="img-responsive" src="../asset/images/workshop3.jpg">
 				<div class="row vc-product-detail">
 					<div class="col-md-1 col-sm-1 col-xs-1">
-						<i class="fa fa-map-marker"></i><br/>
-						<i class="fa fa-tag"></i><br/>
-						<i class="fa fa-clock-o"></i><br/>
+						<p><i class="fa fa-map-marker"></i><br/></p>
+						<p><i class="fa fa-tag"></i><br/></p>
+						<p><i class="fa fa-clock-o"></i><br/></p>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-11 text-left vc-product-detail-a">
+					<div class="col-md-4 col-sm-4 col-xs-11 text-left">
 						<p>Jakarta<br/></p>
 						<p>Rp. 350.000,-<br/></p>
 						<p>2 hours/session<br/></p>
@@ -40,11 +40,11 @@
 					<div class="col-md-7 col-sm-7 col-xs-12 vc-product-social">
 						<p class="text-left" style="margin-top:10px">Lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet</p>
 						<span>Share on: </span>
-						<i class="fa fa-facebook fa-4x"></i>
-						<i class="fa fa-twitter fa-4x"></i>
-						<i class="fa fa-pinterest-p fa-4x"></i>
-						<i class="fa fa-instagram fa-4x"></i>
-						<i class="fa fa-tumblr fa-4x"></i>
+						<i class="fa fa-facebook fa-2x"></i>
+						<i class="fa fa-twitter fa-2x"></i>
+						<i class="fa fa-pinterest-p fa-2x"></i>
+						<i class="fa fa-instagram fa-2x"></i>
+						<i class="fa fa-tumblr fa-2x"></i>
 					</div>
 				</div>
 				</div>
