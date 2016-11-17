@@ -38,7 +38,7 @@
 						</div>
 					</div>
 					<div class="col-md-7 col-sm-7 col-xs-12 vc-product-social">
-						<p class="text-left" style="margin-top:10px">Lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet</p>
+						<p class="text-left">Lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet</p>
 						<span>Share on: </span>
 						<i class="fa fa-facebook fa-2x"></i>
 						<i class="fa fa-twitter fa-2x"></i>
@@ -48,11 +48,13 @@
 				</div>
 				</div>
 				<div class="col-md-1"></div>
-				<div class="col-md-3 vc-product-might">
+				<div class="col-md-3">
 					<h4>LATEST CLASS</h4>
-						<img class="img-responsive" src="../asset/asset_default/images/produk1.jpg">
-						<img class="img-responsive" src="../asset/asset_default/images/produk2.jpg">
+					<div class="vc-product-latest">
+						<div style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)"></div>
 					</div>
+					</div>
+				</div>
 			</div>
 			<div class="row" style="margin-top:25px">
 				<div class="col-md-4 vc-dotted col-xs-2 col-sm-4">
@@ -64,14 +66,69 @@
 				</div>
 			</div>
 			<div class="row text-center">
-				<div class="col-md-4 col-sm-12 col-xs-12 vc-product-might">
-					<img class="img-responsive" src="../asset/asset_default/images/produk1.jpg">
+				<div class="col-md-4 col-sm-4 col-xs-12 vc-product-might">
+					<div class="vc-one">
+			          <div class="imgB1">
+			          	<h4 style="margin-top:300px">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            	Course Fee : IDR 400,000<br/>
+			            	Date : 14 Nov(Mon) 2016<br/>
+			            	Time : 10AM-2PM
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> 
+			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12 vc-product-might">
-					<img class="img-responsive" src="../asset/asset_default/images/produk2.jpg">
+				<div class="col-md-4 col-sm-4 col-xs-12 vc-product-might">
+					<div class="vc-one">
+			          <div class="imgB1">
+			          	<h4 style="margin-top:300px">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            	Course Fee : IDR 400,000<br/>
+			            	Date : 14 Nov(Mon) 2016<br/>
+			            	Time : 10AM-2PM
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12 vc-product-might">
-					<img class="img-responsive" src="../asset/asset_default/images/produk3.jpg">
+				<div class="col-md-4 col-sm-4 col-xs-12 vc-product-might">
+					<div class="vc-one">
+			          <div class="imgB1">
+			          	<h4 style="margin-top:300px">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            	Course Fee : IDR 400,000<br/>
+			            	Date : 14 Nov(Mon) 2016<br/>
+			            	Time : 10AM-2PM
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
 				</div>
 
 			</div>

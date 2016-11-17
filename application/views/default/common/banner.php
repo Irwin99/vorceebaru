@@ -3,7 +3,7 @@
 			
 			<div class="vc-banner-capt text-center">
 				<video style="position:relative;z-index: -1;" muted loop width="100%" autoplay>
-					<source src="asset/video/video.mp4" type="video/mp4">
+					<source src="<?php echo base_url('asset/video/video.mp4')?>" type="video/mp4">
 				</video>
 				<div style="margin-top:-600px">
 					<h1>Hello, Creative People!</h1>

@@ -220,7 +220,7 @@
 												<div class="col-sm-6 col-md-6 col-xs-12" style="border-right: 1px solid #e0e0e0">
 													<div class="row">
 														<div class="col-md-3 col-xs-8 col-sm-3" style="padding-top:50px">
-															<img class="img-responsive img-thumbnail" src="<?php echo base_url('asset/images/andien.jpg')?>" alt="" class="img-responsive"/>
+															<img class="img-responsive img-thumbnail" src="<?php echo base_url('asset/images/andien.jpg')?>" alt=""/>
 														</div>
 														<div class="col-md-9 col-xs-8 col-sm-9">
 															<h3><strong>Andien Aisyah</strong></h3>
