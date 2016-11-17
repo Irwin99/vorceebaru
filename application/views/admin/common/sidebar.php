@@ -38,13 +38,13 @@
       <ul class="treeview-menu">
         <li><a href="<?php echo base_url('adminpanel/category/add_category') ?>"><i class="fa fa-plus"></i> add category</a></li>
         <li><a href="<?php echo base_url('adminpanel/category/manage_category') ?>"><i class="fa fa-sitemap"></i> manage category</a></li>
-        <li><a href="<?php echo base_url('adminpanel/product/add_product') ?>"><i class="fa fa-plus"></i> add product</a></li>
-        <li><a href="<?php echo base_url('adminpanel/product/manage_product') ?>"><i class="fa fa-tags"></i> manage product</a></li>
+        <!-- <li><a href="<?php echo base_url('adminpanel/product/add_product') ?>"><i class="fa fa-plus"></i> add product</a></li>
+        <li><a href="<?php echo base_url('adminpanel/product/manage_product') ?>"><i class="fa fa-tags"></i> manage product</a></li> -->
         <li><a href="<?php echo base_url('adminpanel/workshop/add_workshop') ?>"><i class="fa fa-plus"></i> add workshop</a></li>
         <li><a href="<?php echo base_url('adminpanel/workshop/manage_workshop') ?>"><i class="fa fa-tags"></i> manage workshop</a></li>
         </ul>
     </li>
-    <li class="treeview">
+    <!-- <li class="treeview">
       <a href="#">
         <i class="fa fa-usd" aria-hidden="true"></i>
         <span>Tip</span>
@@ -86,6 +86,6 @@
         <li><a href="<?php echo base_url('adminpanel/class/add-class') ?>"><i class="fa fa-plus"></i>Add Class</a></li>
           <li><a href="<?php echo base_url('adminpanel/class/manage-class') ?>"><i class="fa fa-shopping-cart"></i>Manage Class</a></li>
       </ul>
-    </li>
+    </li> -->
 </section>
 <!-- /.sidebar -->
