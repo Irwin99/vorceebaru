@@ -28,6 +28,7 @@
       <thead>
       <tr>
         <th>Category Name</th>
+        <th width="40%">Category Description</th>
         <th>Image</th>
         <th>Action</th>
       </tr>
@@ -39,6 +40,7 @@
       				?>
       				<tr>
                 <td><?php echo $rows->name_category ?></td>
+                <td><?php echo substr($rows->description_category, 0,150) ?></td>
                 <td><?php if($rows->image_category!= "") {
                   ?>
                   <img src="<?php echo base_url($rows->image_category)?>" height="300px;" >
@@ -60,6 +62,7 @@
       <tfoot>
       <tr>
         <th>Category Name</th>
+        <th>Category Description</th>
         <th>Image</th>
         <th>Action</th>
       </tr>

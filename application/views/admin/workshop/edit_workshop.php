@@ -48,12 +48,54 @@
         <input type="text" class="form-control"  name="course_fee" value="<?php echo $result['course_fee']?>">
       </div>
       <div class="form-group">
-        <label>hour Start </label>
-        <input type="text" class="form-control"  name="hour_start" value="<?php echo $result['hour_start']?>">
+        <label>Location:</label>
+
+        <div class="input-group">
+          <div class="input-group-addon">
+            <i class="fa fa-map-marker"></i>
+          </div>
+          <!--<input type="text" class="form-control pull-right"  name="date_end_campaign" value="">-->
+          <input type="text" class="form-control pull-right" name="location" value="<?php echo $result['location']?>">
+        </div>
+        <!-- /.input group -->
       </div>
       <div class="form-group">
-        <label>hour End </label>
-        <input type="text" class="form-control"  name="hour_end" value="<?php echo $result['hour_end']?>">
+        <label>Link Form:</label>
+
+        <div class="input-group">
+          <div class="input-group-addon">
+            <i class="fa fa-link"></i>
+          </div>
+          <!--<input type="text" class="form-control pull-right"  name="date_end_campaign" value="">-->
+          <input type="text" class="form-control pull-right" name="link_form" value="<?php echo $result['link_form']?>">
+        </div>
+        <!-- /.input group -->
+      </div>
+      <div class="form-group">
+        <label>Hour Start </label>
+        <div class="bootstrap-timepicker">
+                <div class="form-group">
+                  <div class="input-group">
+                  <div class="input-group-addon">
+                      <i class="fa fa-clock-o"></i>
+                    </div>
+                    <input type="text" class="form-control timepicker" name="hour_start" value="<?php echo $result['hour_start']?>">
+                  </div>
+                </div>
+              </div>
+      </div>
+      <div class="form-group">
+        <label>Hour End </label>
+        <div class="bootstrap-timepicker">
+                <div class="form-group">
+                  <div class="input-group">
+                  <div class="input-group-addon">
+                      <i class="fa fa-clock-o"></i>
+                    </div>
+                    <input type="text" class="form-control timepicker2" name="hour_end" value="<?php echo $result['hour_end']?>">
+                  </div>
+                </div>
+              </div>
       </div>
       <div class="form-group">
         <label>Image</label>
@@ -72,7 +114,7 @@
             <i class="fa fa-clock-o"></i>
           </div>
           <!--<input type="text" class="form-control pull-right"  name="date_end_campaign" value="">-->
-          <input type="date" class="form-control pull-right" id="datepicker" name="date_workshop" value="<?php echo $result['date_workshop']?>">
+          <input type="text" class="form-control pull-right" id="datepicker" name="date_workshop" value="<?php echo $result['date_workshop']?>">
         </div>
         <!-- /.input group -->
       </div>

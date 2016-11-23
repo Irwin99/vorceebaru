@@ -27,16 +27,19 @@ class Mcategory extends CI_Model {
 
 		function saveCategory($data,$upload_data){
 	    $array = array(
-	        'name_category' =>($data['name_category']),
-	        'image_category' => 'asset/images/category/'.$upload_data['orig_name']
+	        'name_category' => $data['name_category'],
+	        'description_category' => $data['description_category']
 	      );
+	    if($upload_data!=FALSE){
+	    	$array['image_category'] = 'asset/images/category/'.$upload_data['orig_name'];
+	    }
 	    $this->db->insert('category',$array);
 	    return 1;
 	  }
 	    function editCategory($data,$upload_data,$id){
 	      $array = array(
 	        'name_category' =>$data['name_category'],
-
+	        'description_category' => $data['description_category']
 				);
 
 	      if($upload_data!=false){

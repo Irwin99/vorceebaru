@@ -26,7 +26,10 @@
         <label>Category Name </label>
         <input type="text" class="form-control"  name="name_category" value="<?php echo $result['name_category']?>">
         </div>
-
+        <div class="form-group">
+        <label>Category Description </label>
+        <textarea class="form-control" name="description_category"><?php echo $result['description_category']?></textarea>
+        </div>
       <div class="form-group">
         <label>Image</label>
         <input type="file" class="form-control"  name="userfile">

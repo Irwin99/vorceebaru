@@ -51,6 +51,8 @@ class workshop extends CI_Controller {
 			$this->form_validation->set_rules('hour_start','Hour Start','required');
 			$this->form_validation->set_rules('hour_end','Hour End','required');
 			$this->form_validation->set_rules('date_workshop','Date','required');
+			$this->form_validation->set_rules('location','Location','required');
+			$this->form_validation->set_rules('link_form','Link Form','required');
 			if(!$this->form_validation->run()){
 				$data['error'] = false;
 				$this->load->view('admin/index',$data);
@@ -88,6 +90,8 @@ class workshop extends CI_Controller {
 				$this->form_validation->set_rules('hour_start','Hour Start','required');
 				$this->form_validation->set_rules('hour_end','Hour End','required');
 				$this->form_validation->set_rules('date_workshop','Date','required');
+				$this->form_validation->set_rules('location','Location','required');
+				$this->form_validation->set_rules('link_form','Link Form','required');
 			if(!$this->form_validation->run()){
 				$data['error'] = false;
 				$this->load->view('admin/index',$data);

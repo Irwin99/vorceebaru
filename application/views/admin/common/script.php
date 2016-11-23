@@ -17,16 +17,38 @@
 <script src="<?php echo base_url('asset/asset_lte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js') ?>"></script>
 <!-- jQuery Knob Chart -->
 <script src="<?php echo base_url('asset/asset_lte/plugins/knob/jquery.knob.js') ?>"></script>
-<!-- daterangepicker -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
-<script src="<?php echo base_url('asset/asset_lte/plugins/daterangepicker/daterangepicker.js') ?>"></script>
-<!-- datepicker -->
-<script src="<?php echo base_url('asset/asset_lte/plugins/datepicker/bootstrap-datepicker.js') ?>"></script>
+
 <!-- Bootstrap WYSIHTML5 -->
 <script src="<?php echo base_url('asset/asset_lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js') ?>"></script>
 <!-- Slimscroll -->
 <script src="<?php echo base_url('asset/asset_lte/plugins/slimScroll/jquery.slimscroll.min.js') ?>"></script>
 <!-- FastClick -->
 <script src="<?php echo base_url('asset/asset_lte/plugins/fastclick/fastclick.js') ?>"></script>
+<!-- daterangepicker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<!-- datepicker -->
+<script src="<?php echo base_url('asset/asset_lte/plugins/datepicker/bootstrap-datepicker.js') ?>"></script>
+<script src="<?php echo base_url('asset/asset_lte/plugins/timepicker/bootstrap-timepicker.min.js')?>"></script>
+
 <!-- AdminLTE App -->
 <script src="<?php echo base_url('asset/asset_lte/dist/js/app.min.js') ?>"></script>
+<script>
+$('#datepicker').datepicker({
+    format:"d M yyyy",
+      autoclose: true,
+      todayBtn:"linked"
+    });
+    $(".timepicker").timepicker({
+      defaultTime: '07:00',
+    minuteStep: 15,
+    disableFocus: true,
+    showMeridian:false
+
+    });
+    $(".timepicker2").timepicker({
+      defaultTime: '07:00',
+    minuteStep: 15,
+    disableFocus: true,
+    showMeridian:false
+    });
+</script>

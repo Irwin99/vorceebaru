@@ -34,7 +34,9 @@ class Mworkshop extends CI_Model {
         'workshop_description' => $data['workshop_description'],
         'hour_start' => $data['hour_start'],
         'hour_end' => $data['hour_end'],
-        'date_workshop' => $data['date_workshop'],
+        'location' => $data['location'],
+        'link_form' => $data['link_form'],
+        'date_workshop' => date('Y-m-d',strtotime($data['date_workshop'])),
         'date_insert' => date('Y-m-d H:i:s')
       );
     $this->db->insert('workshop',$array);
@@ -48,7 +50,9 @@ class Mworkshop extends CI_Model {
 				'workshop_description' => $data['workshop_description'],
 				'hour_start' => $data['hour_start'],
 				'hour_end' => $data['hour_end'],
-				'date_workshop' => $data['date_workshop']
+				'location' => $data['location'],
+        		'link_form' => $data['link_form'],
+				'date_workshop' => date('Y-m-d',strtotime($data['date_workshop']))
         );
 				if($upload_data!=false){
 					$array['image_workshop'] = 'asset/images/workshop/'.$upload_data['orig_name'];
@@ -69,7 +73,7 @@ class Mworkshop extends CI_Model {
 	    else return FALSE;
 		}
 		function getworkshop($id){
-
+			$this->db->join('category','category.id_category = workshop.id_category');
 			$this->db->where('id_workshop',$id);
 			$query = $this->db->get('workshop');
 			if($query->num_rows()>0){

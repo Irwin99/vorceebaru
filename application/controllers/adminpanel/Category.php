@@ -45,6 +45,7 @@ class category extends CI_Controller {
 		$data['title_web'] = 'Add category | Adminpanel Vorcee';
 		$data['path_content'] = 'admin/category/add_category';
 		$this->form_validation->set_rules('name_category','Category Name','required');
+		$this->form_validation->set_rules('description_category','Category Description','required');
 		if(!$this->form_validation->run()){
 			$data['error'] = false;
 			$this->load->view('admin/index',$data);
@@ -70,6 +71,7 @@ class category extends CI_Controller {
 	function edit_category(){
 		$data['title_web'] = 'Edit category | Adminpanel Vorcee';
 		$data['path_content'] = 'admin/category/edit_category';
+		$this->form_validation->set_rules('description_category','Category Description','required');
 		$id=$this->uri->segment(4);
 		$data['result']=$this->mod->getDataWhere('category','id_category',$id);
 		if($data['result']==FALSE)

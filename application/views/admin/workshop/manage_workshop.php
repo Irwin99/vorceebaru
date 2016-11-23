@@ -47,8 +47,8 @@
       				<tr>
                 <td><?php echo $rows->name_category ?></td>
                 <td><?php echo $rows->workshop_title ?></td>
-                <td>Rp<?php echo  number_format($rows->course_fee)  ?></td>
-                <td><?php echo $rows->workshop_description ?></td>
+                <td>Rp <?php echo  number_format($rows->course_fee)  ?></td>
+                <td><?php echo substr($rows->workshop_description, 0,100) ?></td>
                 <td><?php if($rows->image_workshop!= "") {
                   ?>
                   <img src="<?php echo base_url($rows->image_workshop)?>" height="150px;" >
@@ -56,7 +56,7 @@
                 } ?></td>
                 <td><?php echo $rows->hour_start ?></td>
                 <td><?php echo $rows->hour_end ?></td>
-                <td><?php echo $rows->date_workshop ?></td>
+                <td><?php echo date('d M Y',strtotime($rows->date_workshop)) ?></td>
 
                   <td>
                   <a href ="<?php echo base_url('adminpanel/workshop/edit_workshop/'.$rows->id_workshop)?>">Edit</a> |

@@ -83,10 +83,10 @@
 					<button class="btn-tip" type="text" type="submit" style="width:100%">Subscribe</button>
 				</div>
 				<div class="row text-center" id="vc-social">
-					<i class="fa fa-facebook fa-2x"></i>
-					<i class="fa fa-twitter fa-2x"></i>
+				<a href="https://www.facebook.com/VorceeID/?fref=ts"><i class="fa fa-facebook fa-2x"></i></a>
+				<a href="https://twitter.com/vorceeid"><i class="fa fa-twitter fa-2x"></i></a>
 					<i class="fa fa-linkedin fa-2x"></i>
-					<i class="fa fa-instagram fa-2x"></i>
+				<a href="https://www.instagram.com/vorceeind/"><i class="fa fa-instagram fa-2x"></i></a>
 					<i class="fa fa-youtube-play fa-2x"></i>
 				</div>
 			</div>

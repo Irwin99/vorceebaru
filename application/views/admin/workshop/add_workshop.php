@@ -48,12 +48,54 @@
         <input type="text" class="form-control"  name="course_fee" value="<?php echo set_value('course_fee')?>">
       </div>
       <div class="form-group">
-        <label>hour Start </label>
-        <input type="text" class="form-control"  name="hour_start" value="<?php echo set_value('hour_start')?>">
+        <label>Location:</label>
+
+        <div class="input-group">
+          <div class="input-group-addon">
+            <i class="fa fa-map-marker"></i>
+          </div>
+          <!--<input type="text" class="form-control pull-right"  name="date_end_campaign" value="">-->
+          <input type="text" class="form-control pull-right" name="location" value="<?php echo set_value('location')?>">
+        </div>
+        <!-- /.input group -->
       </div>
       <div class="form-group">
-        <label>hour End </label>
-        <input type="text" class="form-control"  name="hour_end" value="<?php echo set_value('hour_end')?>">
+        <label>Link Form:</label>
+
+        <div class="input-group">
+          <div class="input-group-addon">
+            <i class="fa fa-link"></i>
+          </div>
+          <!--<input type="text" class="form-control pull-right"  name="date_end_campaign" value="">-->
+          <input type="text" class="form-control pull-right" name="link_form" value="<?php echo set_value('link_form')?>">
+        </div>
+        <!-- /.input group -->
+      </div>
+      <div class="form-group">
+        <label>Hour Start </label>
+        <div class="bootstrap-timepicker">
+                <div class="form-group">
+                  <div class="input-group">
+                  <div class="input-group-addon">
+                      <i class="fa fa-clock-o"></i>
+                    </div>
+                    <input type="text" class="form-control timepicker" name="hour_start" value="<?php echo set_value('hour_start')?>">
+                  </div>
+                </div>
+              </div>
+      </div>
+      <div class="form-group">
+        <label>Hour End </label>
+        <div class="bootstrap-timepicker">
+                <div class="form-group">
+                  <div class="input-group">
+                  <div class="input-group-addon">
+                      <i class="fa fa-clock-o"></i>
+                    </div>
+                    <input type="text" class="form-control timepicker2" name="hour_end" value="<?php echo set_value('hour_end')?>">
+                  </div>
+                </div>
+              </div>
       </div>
       <div class="form-group">
         <label>Image</label>
@@ -69,10 +111,10 @@
 
         <div class="input-group">
           <div class="input-group-addon">
-            <i class="fa fa-clock-o"></i>
+            <i class="fa fa-calendar-o"></i>
           </div>
           <!--<input type="text" class="form-control pull-right"  name="date_end_campaign" value="">-->
-          <input type="date" class="form-control pull-right" id="datepicker" name="date_workshop">
+          <input type="text" class="form-control pull-right" id="datepicker" name="date_workshop">
         </div>
         <!-- /.input group -->
       </div>
@@ -89,18 +131,3 @@
 </div> <!-- end of div cols 6 -->
 </div> <!-- end of div row-->
 </section>
-<script type="text/javascript">
-$(function() {
-    $('input[name="date_end_campaign"]').daterangepicker({
-        timePicker: true,
-        timePickerIncrement: 30,
-        locale: {
-            format: 'MM/DD/YYYY h:mm A'
-        }
-    });
-});
-//Date picker
-   $('#datepicker').datepicker({
-     autoclose: true
-   });
-</script>
