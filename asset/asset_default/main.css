@@ -376,6 +376,9 @@ a{
 .vc-product-detail{
 	margin-top:20px;
 }
+.vc-product-detail-box{
+	margin-top:15px;
+}
 .vc-product-latest{
 	z-index: 1000;
 	height:100%;

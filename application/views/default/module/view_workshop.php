@@ -19,8 +19,8 @@
 					<div class="col-md-2"></div>
 				</div>
 			</div>
-			<div class="row vc-product-box text-center">
-				<div class="col-md-7">
+
+
 					<h3>NOW ON CLASS: <?php echo $result['workshop_title']?></h3>
 					<?php
 						if($result['image_workshop'] != ""){
@@ -36,13 +36,13 @@
 						}
 					?>
 				<div class="row vc-product-detail">
-					<div class="col-md-1 col-sm-1 col-xs-1">
+					<div class="col-md-1 col-sm-1 col-xs-1 vc-product-detail-box">
 						<p><i class="fa fa-map-marker"></i><br/></p>
 						<p><i class="fa fa-tag"></i><br/></p>
 						<p><i class="fa fa-calendar"></i><br/></p>
 						<p><i class="fa fa-clock-o"></i><br/></p>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-11 text-left">
+					<div class="col-md-4 col-sm-4 col-xs-11 text-left vc-product-detail-box">
 						<p><?php echo $result['location']?><br/></p>
 						<p>Rp. <?php echo number_format($result['course_fee'])?><br/></p>
 						<p><?php echo date('D, d M Y',strtotime($result['date_workshop']))?></p>
@@ -53,7 +53,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-7 col-sm-7 col-xs-12 vc-product-social">
+					<div class="col-md-7 col-sm-7 col-xs-12 vc-product-detail-box">
 						<p class="text-left"><?php echo $result['workshop_description']?></p>
 						<span>Share on: </span>
 						<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo base_url('page/view-workshop/'.$result['id_workshop'].'/'.$this->mod->urlFriendly($result['workshop_title']))?>">
@@ -65,15 +65,7 @@
 						<i class="fa fa-instagram fa-2x"></i>
 					</div>
 				</div>
-				</div>
-				<div class="col-md-1"></div>
-				<div class="col-md-3">
-					<h4>LATEST CLASS</h4>
-					<div class="vc-product-latest">
-						<div style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)"></div>
-					</div>
-					</div>
-				</div>
+
 			</div>
 			<div class="row" style="margin-top:25px">
 				<div class="col-md-4 vc-dotted col-xs-2 col-sm-4">
