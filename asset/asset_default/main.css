@@ -240,6 +240,10 @@ a{
 .vc-one {
 	color:#ffd633;
 }
+.vc-one-xs {
+	color:#ffd633;
+
+}
 .vc-one a{
 	color:#1E1E20;
 	text-decoration:none;
@@ -313,7 +317,42 @@ a{
 	height:70%;
 	width:50%;
 	background-color: rgba(255, 214, 51, 0.5);
-
+}
+.imgB2 { 
+ 	position:absolute;
+	z-index: 3;
+	padding:5px; 
+	color:#1E1E20;
+	height:484px;
+	width:50%;
+	background-color: rgba(255, 214, 51, 0.5);
+}
+.imgB2-md { 
+ 	position:absolute;
+	z-index: 3;
+	padding:5px; 
+	color:#1E1E20;
+	height:404px;
+	width:50%;
+	background-color: rgba(255, 214, 51, 0.5);
+}
+.imgB2-sm { 
+ 	position:absolute;
+	z-index: 3;
+	padding:5px; 
+	color:#1E1E20;
+	height:316px;
+	width:50%;
+	background-color: rgba(255, 214, 51, 0.5);
+}
+.imgB2-xs { 
+ 	position:absolute;
+	z-index: 3;
+	padding:5px; 
+	color:#1E1E20;
+	height:100%;
+	width:50%;
+	background-color: rgba(255, 214, 51, 0.5);
 }
 .container-po { position:relative; }
 .btn-tip{
@@ -420,6 +459,9 @@ a{
 	z-index: 1000;
 	height:100%;
 	background-color: rgba(255, 214, 51, 0.5);
+}
+.vc-product-might-xs{
+	margin:10px
 }
 #vc-occasions{
 	margin: 20px 0 0 0;
@@ -563,4 +605,11 @@ color: #ffd633 !important;
 .vc-detail-workshop h2{
 	font-size: 22px;
 	color: #FFD633;
+}
+.navbar-toggle{
+	background-color:#FFD633;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
 }

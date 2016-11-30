@@ -68,18 +68,18 @@
 
 			</div>
 			<div class="row" style="margin-top:25px">
-				<div class="col-md-4 vc-dotted col-xs-2 col-sm-4">
+				<div class="col-md-3 col-lg-4 col-sm-3 col-xs-1 vc-dotted">
 				</div>
-				<div class="col-md-4 text-center col-xs-8 col-sm-4">
+				<div class="col-md-6 col-lg-4 col-sm-6 col-xs-10 text-center">
 					<h2 style="margin-top:-15px;">YOU MIGHT ALSO LIKE</h2>	
 				</div>
-				<div class="col-md-4 vc-dotted col-xs-2 col-sm-4">
+				<div class="col-md-3 col-lg-4 col-sm-3 col-xs-1 vc-dotted">
 				</div>
 			</div>
-			<div class="row text-center">
-				<div class="col-md-4 col-sm-4 col-xs-12 vc-product-might">
+			<div class="row text-center visible-lg">
+				<div class="col-lg-4 vc-product-might">
 					<div class="vc-one">
-			          <div class="imgB1">
+			          <div class="imgB2">
 			          	<h4 style="margin-top:370px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
@@ -96,9 +96,9 @@
 						</div>
 		          	</div>
 				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 vc-product-might">
+				<div class="col-lg-4 vc-product-might">
 					<div class="vc-one">
-			          <div class="imgB1">
+			          <div class="imgB2">
 			          	<h4 style="margin-top:370px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
@@ -114,9 +114,9 @@
 						</div>
 		          	</div>
 				</div>
-				<div class="col-md-4 col-sm-4 col-xs-12 vc-product-might">
+				<div class="col-lg-4 vc-product-might">
 					<div class="vc-one">
-			          <div class="imgB1">
+			          <div class="imgB2">
 			          	<h4 style="margin-top:370px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
@@ -132,9 +132,196 @@
 						</div>
 		          	</div>
 				</div>
-
 			</div>
-
+			<div class="row text-center visible-md">
+				<div class="col-md-4 vc-product-might">
+					<div class="vc-one">
+			          <div class="imgB2-md">
+			          	<h4 style="margin-top:300px">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> 
+			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+				<div class="col-md-4 vc-product-might">
+					<div class="vc-one">
+			          <div class="imgB2-md">
+			          	<h4 style="margin-top:300px">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+				<div class="col-md-4 vc-product-might">
+					<div class="vc-one">
+			          <div class="imgB2-md">
+			          	<h4 style="margin-top:300px">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+			</div>
+			<div class="row text-center visible-sm">
+				<div class="col-sm-4 vc-product-might">
+					<div class="vc-one">
+			          <div class="imgB2-sm">
+			          	<h4 style="margin-top:220px">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> 
+			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+				<div class="col-sm-4 vc-product-might">
+					<div class="vc-one">
+			          <div class="imgB2-sm">
+			          	<h4 style="margin-top:220px">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+				<div class="col-sm-4 vc-product-might">
+					<div class="vc-one-xs">
+			          <div class="imgB2-sm">
+			          	<h4 style="margin-top:220px">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+			</div>
+			<div class="row text-center visible-xs">
+				<div class="col-xs-5 vc-product-might-xs">
+					<div class="vc-one-xs">
+			          <div class="imgB2-xs">
+			          	<h4 style="margin-top:185%">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> 
+			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+				<div class="col-xs-5 vc-product-might-xs">
+					<div class="vc-one-xs">
+			          <div class="imgB2-xs">
+			          	<h4 style="margin-top:185%">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+				<div class="col-xs-5 vc-product-might-xs">
+					<div class="vc-one-xs">
+			          <div class="imgB2-xs">
+			          	<h4 style="margin-top:185%">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+				<div class="col-xs-5 vc-product-might-xs">
+					<div class="vc-one-xs">
+			          <div class="imgB2-xs">
+			          	<h4 style="margin-top:185%">
+			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
+			            </h4>
+			          </div>
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+						  <div id="vc-overlay">
+						    <span id="vc-plus">
+						    	<a href="<?php echo base_url('page/view-product/')?>">
+			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+			                    </a>
+						    </span>
+						  </div>
+						</div>
+		          	</div>
+				</div>
+			</div>
 				</div>
 			</div>
 		</div>
