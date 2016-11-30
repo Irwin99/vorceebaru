@@ -55,7 +55,7 @@
 			<div class="col-md-4 vc-footer-child text-center">
 				<h4 style="margin-left:15px">CONTACT US</h4><br/>
 				<div class="vc-footer-child-box text-left">
-					<div class="row" style="padding:0px 5px 0px 5px">
+					<div class="row hidden-xs" style="padding:0px 5px 0px 5px">
 						<div class="col-md-1 col-sm-1 col-xs-1">
 							<i class="fa fa-map-marker"></i><br/>
 							<i class="fa fa-clock-o"></i><br/>
@@ -67,6 +67,18 @@
 							Contact :</p>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-6">
+							Jakarta<br/>
+							08.00 AM - 19.00 PM<br/>
+							021-12345678
+						</div>
+					</div>
+					<div class="row visible-xs" style="padding:0px 5px 0px 5px">
+						<div class="col-xs-5">
+							<p><i class="fa fa-map-marker"></i>Location :<br/>
+							<i class="fa fa-clock-o"></i>Business Hours :<br/>
+							<i class="fa fa-phone"></i>Contact :</p>
+						</div>
+						<div class="col-xs-7">
 							Jakarta<br/>
 							08.00 AM - 19.00 PM<br/>
 							021-12345678

@@ -5,7 +5,7 @@
 				<video style="position:relative;z-index: -1;" muted loop width="100%" autoplay>
 					<source src="<?php echo base_url('asset/video/video.mp4')?>" type="video/mp4">
 				</video>
-				<div style="margin-top:-600px">
+				<div class="visible-lg" style="margin-top:-600px">
 					<h1>Hello, Creative People!</h1>
 					<h2>It's Vor Creative Indoestry. We are Pro Skill</h2><br/>
 					<div class="row">
@@ -23,8 +23,62 @@
 						<div class="col-md-3"></div>
 					</div>
 				</div>
+				<div class="visible-md" style="margin-top:-500px">
+					<h1>Hello, Creative People!</h1>
+					<h2>It's Vor Creative Indoestry. We are Pro Skill</h2><br/>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-3 form-group">
+							<button class="btn-tip" type="text" type="submit" style="width:80%">
+								Creator
+							</button>
+						</div>
+						<div class="col-md-3 form-group">
+							<button class="btn-tip" type="text" type="submit" style="width:80%">
+								Learner
+							</button>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+				</div>
+				<div class="visible-sm" style="margin-top:-380px">
+					<h1>Hello, Creative People!</h1>
+					<h2>It's Vor Creative Indoestry. We are Pro Skill</h2><br/>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3 form-group">
+							<button class="btn-tip" type="text" type="submit" style="width:80%">
+								Creator
+							</button>
+						</div>
+						<div class="col-sm-3 form-group">
+							<button class="btn-tip" type="text" type="submit" style="width:80%">
+								Learner
+							</button>
+						</div>
+						<div class="col-sm-3"></div>
+					</div>
+				</div>
+				<div class="visible-xs" style="margin-top:-210px;">
+					<h3>Hello, Creative People!</h1>
+					<h4>It's Vor Creative Indoestry. We are Pro Skill</h2><br/>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-3 form-group">
+							<button class="btn-tip" type="text" type="submit" style="width:80%">
+								Creator
+							</button>
+						</div>
+						<div class="col-sm-3 form-group">
+							<button class="btn-tip" type="text" type="submit" style="width:80%">
+								Learner
+							</button>
+						</div>
+						<div class="col-sm-3"></div>
+					</div>
+				</div>
 			</div>
-			<div class="text-center tombol" style="margin-top:200px">
+			<div class="text-center tombol hidden-xs" style="margin-top:80px">
 				<a href="#scroll">
 					<h3>Scroll Down</h3>
 					<i class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i>

@@ -187,7 +187,15 @@ a{
 	font-size:18px;
 }
 #vc-discover{
+	margin: 230px 0 50px 0;
+	padding-top:20px;
+}
+#vc-discover-md{
 	margin: 150px 0 50px 0;
+	padding-top:20px;
+}
+#vc-discover-sm{
+	margin: 20px 0 50px 0;
 	padding-top:20px;
 }
 #vc-discover h2{
@@ -271,13 +279,41 @@ a{
 }
 .imgA1 { position:absolute; top: 0px; left: 0px; z-index: 1; }
 .imgB1 { 
-	position:absolute; 
+ 	position:absolute;
 	z-index: 3;
 	padding:5px; 
 	color:#1E1E20;
 	height:450px;
 	width:50%;
 	background-color: rgba(255, 214, 51, 0.5);
+}
+.imgB1-md { 
+	position:absolute; 
+	z-index: 3;
+	padding:5px; 
+	color:#1E1E20;
+	height:370px;
+	width:50%;
+	background-color: rgba(255, 214, 51, 0.5);
+}
+.imgB1-sm { 
+	position:absolute; 
+	z-index: 3;
+	padding:5px; 
+	color:#1E1E20;
+	height:282px;
+	width:50%;
+	background-color: rgba(255, 214, 51, 0.5);
+}
+.imgB1-xs { 
+	position:absolute; 
+	z-index: 3;
+	padding:5px; 
+	color:#1E1E20;
+	height:70%;
+	width:50%;
+	background-color: rgba(255, 214, 51, 0.5);
+
 }
 .container-po { position:relative; }
 .btn-tip{
@@ -286,6 +322,7 @@ a{
 	padding: 6px 10px;
 	color:#1E1E20;
 	border-radius: 0px;
+	margin-bottom:20px;
 }
 .form-control{
 	border-radius: 0px;

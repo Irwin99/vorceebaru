@@ -36,14 +36,17 @@
 <nav class="navbar" id="overlaymenu">
 
 
-				<div class="col-md-2 col-sm-4 col-xs-6">
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
 					<span id="vc-title">
 					<a href="<?php echo base_url('') ?>">
 						vorcee<small>BETA</small>
 					</a>
 					</span>
 				</div>
-
+				<div class="col-xs-6 visible-xs" id="vc-search-top">
+					<i class="fa fa-search fa-fw" style="color:#ffd633"></i>
+		          	<input type="text" name="search" placeholder="Search" class="form-search">
+				</div>
 				<div class="col-md-8 col-sm-8 col-xs-12">
 					<nav class="navbar">
 						<div class="nav menu sf-menu responsive-menu superfish sf-js-enabled">
@@ -72,7 +75,7 @@
 						</div>
 					</nav>
 				</div>
-				<div class="col-md-2 col-sm-8 col-xs-12" id="vc-search-top">
+				<div class="col-md-2 col-sm-2 hidden-xs" id="vc-search-top">
 					<i class="fa fa-search fa-fw" style="color:#ffd633"></i>
 	          	  	<input type="text" name="search" placeholder="Search" class="form-search">
 				</div>
