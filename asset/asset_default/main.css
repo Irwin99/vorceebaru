@@ -177,7 +177,7 @@ a{
 .play-button-container a{
 	font-family: 'Muli', sans-serif;
 	font-size: 2vw;
-	color:#fff;
+	color:#333;
 }
 .play-button-container button{
 	background-color: #FFD633;
@@ -382,7 +382,7 @@ a{
 }
 .vc-footer-child{
 	border-right:1px solid #1E1E20;
-	height: 190px;
+	height: 250px;
 	border-bottom: 1px solid #1E1E20;
 }
 .vc-footer-child a{
@@ -391,7 +391,7 @@ a{
 }
 .vc-footer-child-right{
 	border-bottom: 1px solid #1E1E20;
-	height: 190px;
+	height: 250px;
 }
 .vc-footer-child-right a{
 	color:#1E1E20;
@@ -552,7 +552,7 @@ a{
 	background-color: rgba(97, 97, 97, 0.5);
 }
 .bgimg-1{
-	background-image:url("../images/workshop.jpg");
+	background-image:url("../images/bgevent2.jpg");
 	background-color: rgba(97, 97, 97, 0.5);
 }
 .tombol{

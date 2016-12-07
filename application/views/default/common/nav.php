@@ -60,16 +60,16 @@
 						<div class="collapse navbar-collapse" id="vc-nav">
 							<ul class="nav navbar-nav" id="vc-nav">
 						        <li><a href="#home">Fashion <span class="sr-only">(current)</span></a></li>
-						        <li><a href="#about">Craft</a></li>
+						        <li><a href="#about">Handcraft</a></li>
 						        <li><a href="#package">Design</a></li>
 						        <li><a href="#decoration">Media</a></li>
 						        <li><a href="#gallery">Music</a></li>
 						        <li><a href="#contact">Publishing</a></li>
-						        <li><a href="#contact">Advertising</a></li>
+						        <li><a href="#contact">Marketing</a></li>
 						        <li><a href="#contact">Art Market</a></li>
 						        <li><a href="#contact">Architecture</a></li>
 						        <li><a href="#contact">Performance Art</a></li>
-						        <li><a href="#contact">Computer</a></li>
+						        <li><a href="#contact">IT</a></li>
 						        <li><a href="#contact">Research Development</a></li>
 						      </ul>
 						</div>

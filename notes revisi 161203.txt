@@ -1,0 +1,11 @@
+Notes:
+Yang view workshop samain aja kayak homepage.
+Footer:
+- type your email here warna hitam
+- blanace about vorcee & news
+- socmednya kecilin
+
+Fungsi
+- learner daftar (buat email newsletter)
+- register creater (lihat di atamerica.com) 
+- creator bisa buat submit proposal (contact information)

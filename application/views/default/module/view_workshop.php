@@ -21,7 +21,7 @@
 			</div>
 
 
-					<h3>NOW ON CLASS: <?php echo $result['workshop_title']?></h3>
+					<h3 class="text-center">NOW ON CLASS</h3>
 					<?php
 						if($result['image_workshop'] != ""){
 							?>
@@ -36,13 +36,13 @@
 						}
 					?>
 				<div class="row vc-product-detail">
-					<div class="col-md-1 col-sm-1 col-xs-1 vc-product-detail-box">
+					<div class="col-md-1 col-sm-1 col-xs-1 vc-product-detail-box" style="margin-top: 45px;">
 						<p><i class="fa fa-map-marker"></i><br/></p>
 						<p><i class="fa fa-tag"></i><br/></p>
 						<p><i class="fa fa-calendar"></i><br/></p>
 						<p><i class="fa fa-clock-o"></i><br/></p>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-11 text-left vc-product-detail-box">
+					<div class="col-md-4 col-sm-4 col-xs-11 text-left vc-product-detail-box" style="margin-top: 45px;">
 						<p><?php echo $result['location']?><br/></p>
 						<p>Rp. <?php echo number_format($result['course_fee'])?><br/></p>
 						<p><?php echo date('D, d M Y',strtotime($result['date_workshop']))?></p>
@@ -54,15 +54,18 @@
 						</div>
 					</div>
 					<div class="col-md-7 col-sm-7 col-xs-12 vc-product-detail-box">
+						<h3><?php echo $result['workshop_title']?></h3>
 						<p class="text-left"><?php echo $result['workshop_description']?></p>
-						<span>Share on: </span>
+						<div class="text-center">
+						<span>Share it on: </span>
 						<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo base_url('page/view-workshop/'.$result['id_workshop'].'/'.$this->mod->urlFriendly($result['workshop_title']))?>">
-						<i class="fa fa-facebook fa-2x"></i></a>
+						<i class="fa fa-facebook fa-fw"></i></a>
 						<!-- <a href="https://www.facebook.com/sharer/sharer.php?u=http://vorcee.com/page/view-workshop/4/adyanthy-media-workshop">
 						<i class="fa fa-facebook fa-2x"></i></a> -->
-						<i class="fa fa-twitter fa-2x"></i>
-						<i class="fa fa-linkedin fa-2x"></i>
-						<i class="fa fa-instagram fa-2x"></i>
+						<i class="fa fa-twitter fa-fw"></i>
+						<i class="fa fa-linkedin fa-fw"></i>
+						<i class="fa fa-instagram fa-fw"></i>
+						</div>
 					</div>
 				</div>
 

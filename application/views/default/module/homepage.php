@@ -347,11 +347,12 @@
 		        <div class="clearfix"> </div>
 			</div>
 		</div>
-	</div> -->
+	 -->
+	 </div>
 	<div class="bgimg-1">
 		<div class="overlay-image play-button-container">
 			SEE WHAT WE DO<br />
-			<h2>Get Involved with our foundation program! 
+			<h2>Get Involved with our environment
 			<a href="#">Learn More</a></h2>
 			<div class="form-group">
 				<button class="btn-tip" type="text" type="submit" style="width:50%">Apply Now</button>
