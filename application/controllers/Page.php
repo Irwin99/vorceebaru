@@ -43,4 +43,8 @@ class Page extends CI_Controller {
 		else
 			redirect($result['link_form']);
 	}
+	public function login(){
+		$data['path_content'] = 'default/module/login';
+		$this->load->view('default/index',$data);	
+	}
 }

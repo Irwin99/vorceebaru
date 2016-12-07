@@ -83,7 +83,7 @@
 				<div class="col-lg-4 vc-product-might">
 					<div class="vc-one">
 			          <div class="imgB2">
-			          	<h4 style="margin-top:370px">
+			          	<h4 style="margin-top:320px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
@@ -91,47 +91,59 @@
 			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
 				<div class="col-lg-4 vc-product-might">
 					<div class="vc-one">
 			          <div class="imgB2">
-			          	<h4 style="margin-top:370px">
+			          	<h4 style="margin-top:320px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
 				<div class="col-lg-4 vc-product-might">
 					<div class="vc-one">
 			          <div class="imgB2">
-			          	<h4 style="margin-top:370px">
+			          	<h4 style="margin-top:320px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
@@ -140,7 +152,7 @@
 				<div class="col-md-4 vc-product-might">
 					<div class="vc-one">
 			          <div class="imgB2-md">
-			          	<h4 style="margin-top:300px">
+			          	<h4 style="margin-top:240px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
@@ -148,47 +160,59 @@
 			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
 				<div class="col-md-4 vc-product-might">
 					<div class="vc-one">
 			          <div class="imgB2-md">
-			          	<h4 style="margin-top:300px">
+			          	<h4 style="margin-top:240px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
 				<div class="col-md-4 vc-product-might">
 					<div class="vc-one">
 			          <div class="imgB2-md">
-			          	<h4 style="margin-top:300px">
+			          	<h4 style="margin-top:240px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
@@ -197,7 +221,7 @@
 				<div class="col-sm-4 vc-product-might">
 					<div class="vc-one">
 			          <div class="imgB2-sm">
-			          	<h4 style="margin-top:220px">
+			          	<h4 style="margin-top:160px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
@@ -205,47 +229,57 @@
 			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
-						    </span>
+						    							    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
 				<div class="col-sm-4 vc-product-might">
 					<div class="vc-one">
 			          <div class="imgB2-sm">
-			          	<h4 style="margin-top:220px">
+			          	<h4 style="margin-top:160px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
 				<div class="col-sm-4 vc-product-might">
 					<div class="vc-one-xs">
 			          <div class="imgB2-sm">
-			          	<h4 style="margin-top:220px">
+			          	<h4 style="margin-top:160px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
-						    </span>
+						    							    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
@@ -254,7 +288,7 @@
 				<div class="col-xs-5 vc-product-might-xs">
 					<div class="vc-one-xs">
 			          <div class="imgB2-xs">
-			          	<h4 style="margin-top:185%">
+			          	<h4 style="margin-top:145%">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
@@ -262,65 +296,81 @@
 			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
 				<div class="col-xs-5 vc-product-might-xs">
 					<div class="vc-one-xs">
 			          <div class="imgB2-xs">
-			          	<h4 style="margin-top:185%">
+			          	<h4 style="margin-top:145%">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
 				<div class="col-xs-5 vc-product-might-xs">
 					<div class="vc-one-xs">
 			          <div class="imgB2-xs">
-			          	<h4 style="margin-top:185%">
+			          	<h4 style="margin-top:145%">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>
 				<div class="col-xs-5 vc-product-might-xs">
 					<div class="vc-one-xs">
 			          <div class="imgB2-xs">
-			          	<h4 style="margin-top:185%">
+			          	<h4 style="margin-top:145%">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
-						    	<a href="<?php echo base_url('page/view-product/')?>">
-			                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
-			                    </a>
+						    	
 						    </span>
 						  </div>
+						</div>
+						<div class="text-left vc-detail-workshop" id="vc-detail-might-f">
+							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
+							Course Fee: IDR 500,000<br/>
+							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
+							Location : Kolega Tebets
 						</div>
 		          	</div>
 				</div>

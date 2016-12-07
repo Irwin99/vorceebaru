@@ -43,18 +43,18 @@
 			</div>
 			<div class="col-md-4 vc-footer-child-right">
 				<h4 style="margin-left:10px">NEWSLETTER</h4>
-				<div class="form-group ">
+				<div class="form-group" id="email-here">
 					<input class="form-control" type="text" placeholder="Type Your Email Here">
 				</div>
 				<div class="form-group">
 					<button class="btn-tip" type="text" type="submit" style="width:100%">Subscribe</button>
 				</div>
 				<div class="row text-center" id="vc-social">
-				<a href="https://www.facebook.com/VorceeID/?fref=ts"><i class="fa fa-facebook fa-2x"></i></a>
-				<a href="https://twitter.com/vorceeid"><i class="fa fa-twitter fa-2x"></i></a>
-					<i class="fa fa-linkedin fa-2x"></i>
-				<a href="https://www.instagram.com/vorceeind/"><i class="fa fa-instagram fa-2x"></i></a>
-					<i class="fa fa-youtube-play fa-2x"></i>
+				<a href="https://www.facebook.com/VorceeID/?fref=ts"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/vorceeid"><i class="fa fa-twitter"></i></a>
+					<i class="fa fa-linkedin"></i>
+				<a href="https://www.instagram.com/vorceeind/"><i class="fa fa-instagram"></i></a>
+					<i class="fa fa-youtube-play"></i>
 				</div>
 			</div>
 		</div>
