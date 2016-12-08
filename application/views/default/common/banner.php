@@ -11,7 +11,7 @@
 					<div class="row">
 						<div class="col-md-3"></div>
 						<div class="col-md-3 form-group">
-							<button class="btn-tip" data-toggle="modal" data-target="#loginModal" type="text" type="submit" style="width:80%">
+							<button class="btn-tip" data-toggle="modal" data-target="#loginModalCreator" type="text" type="submit" style="width:80%">
 								Creator
 							</button>
 						</div>

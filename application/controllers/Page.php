@@ -47,4 +47,8 @@ class Page extends CI_Controller {
 		$data['path_content'] = 'default/module/login';
 		$this->load->view('default/index',$data);	
 	}
+	public function member(){
+		$data['path_content'] = 'default/module/member';
+		$this->load->view('default/index',$data);	
+	}
 }
