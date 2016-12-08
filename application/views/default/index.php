@@ -120,5 +120,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo base_url('asset/asset_default/js/bootstrap.min.js')?>"></script>
+    <script src="<?php echo base_url('asset/asset_default/timepicker/bootstrap-timepicker.min.js')?>"></script>
+    <script src="<?php echo base_url('asset/asset_default/datepicker/bootstrap-datepicker.js')?>"></script>
+    <script>
+  $(function () {
+    $('#datepicker').datepicker({
+      autoclose: true
+    });
+    $('#datepicker2').datepicker({
+      autoclose: true
+    });
+    $(".timepicker").timepicker({
+      showInputs: false
+    });
+    $(".timepicker2").timepicker({
+      showInputs: false
+    });
+  });
+</script>
 </body>
 </html>

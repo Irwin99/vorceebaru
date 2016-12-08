@@ -626,18 +626,18 @@ color: #ffd633 !important;
 #vc-detail-might-f{
 	color:#333;
 }
-#email-here input::-webkit-input-placeholder {
+#email-here *::-webkit-input-placeholder {
 color: #333 !important;
 }
-#email-here input:-moz-placeholder { /* Firefox 18- */
+#email-here *:-moz-placeholder { /* Firefox 18- */
 color: #333 !important;  
 }
  
-#email-here input::-moz-placeholder {  /* Firefox 19+ */
+#email-here *::-moz-placeholder {  /* Firefox 19+ */
 color: #333 !important;  
 }
  
-#email-here input:-ms-input-placeholder {  
+#email-here *:-ms-input-placeholder {  
 color: #333 !important;  
 }
 .vc-btn-primary{

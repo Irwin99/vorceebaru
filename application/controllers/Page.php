@@ -51,4 +51,8 @@ class Page extends CI_Controller {
 		$data['path_content'] = 'default/module/member';
 		$this->load->view('default/index',$data);	
 	}
+	public function submit_proposal(){
+		$data['path_content'] = 'default/module/submit_proposal';
+		$this->load->view('default/index',$data);	
+	}
 }

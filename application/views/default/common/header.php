@@ -4,6 +4,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto+Condensed|Noto+Sans|Muli|Lato|Questrial" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('asset/asset_default/main.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('asset/asset_default/fa/css/font-awesome.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/asset_default/timepicker/bootstrap-timepicker.min.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('asset/asset_default/datepicker/datepicker3.css')?>">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
 $(document).ready(function(){
