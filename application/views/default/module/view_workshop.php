@@ -82,10 +82,11 @@
 			<div class="row text-center visible-lg">
 				<div class="col-lg-4 vc-product-might">
 					<div class="vc-one">
-			          <div class="imgB2">
-			          	<h4 style="margin-top:320px">
-			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
-			            </h4>
+			          <div class="imgB2 text-left">
+			          	<h6 style="margin-top:320px">
+		          			<b>Handcraft</b>
+			            </h6>
+			            <h4>Lorem Ipsum Dolor Sil Amet</h4><br />
 			          </div>
 			            <a href="single.html"><img alt="" class="img-responsive" /></a> 
 			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
@@ -99,7 +100,10 @@
 							<h2><b>Isyana Sarasvatis's Gallery</b></h2>
 							Course Fee: IDR 500,000<br/>
 							Time &Date : Mon, 05 Dec 2016, 07:00 - 09:00<br/>
-							Location : Kolega Tebets
+							Location : Kolega Tebets<br /><br />
+							<a href="<?php echo base_url('page/view-workshop/')?>">
+		                        <button class="btn-tip" type="submit">View Details <i class="fa fa-angle-double-right"></i></button>
+		                    </a>
 						</div>
 		          	</div>
 				</div>
