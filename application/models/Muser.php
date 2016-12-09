@@ -67,6 +67,33 @@ class Muser extends CI_Model {
       $this->db->update('user',$array);
       return 1;
     }
+		function saveCreator($data){
+	    $array = array(
+	        'username' => $data['username'],
+	        'password' => md5($data['password']),
+	        'email' => $data['email'],
+	        'full_name' => $data['full_name'],
+					'organization_name' => $data['organization_name'],
+					'phone_number' =>$data['phone_number'],
+					'mobile' => $data['mobile'],
+	        'address' => $data['address'],
+	        'date_register' => date('Y-m-d H:i:s'),
+	        'permission' => 0
+	      );
+	    $this->db->insert('user',$array);
+	    return 1;
+	  }
+		function saveLearner($data){
+	    $array = array(
+	        'username' => $data['username'],
+	        'password' => md5($data['password']),
+	        'email' => $data['email'],
+	        'date_register' => date('Y-m-d H:i:s'),
+	        'permission' => 2
+	      );
+	    $this->db->insert('user',$array);
+	    return 1;
+	  }
 		function fetchUserSearch($data) {
 			$this->db->like($data['by'],$data['search']);
 			$this->db->order_by('date_register','DESC');
@@ -76,4 +103,14 @@ class Muser extends CI_Model {
 	    }
 	    else return FALSE;
 		}
+		function validLogin($username,$password){
+    $this->db->where('username',$username);
+    $this->db->where('password',md5($password));
+    $this->db->where('permission != ',1);;
+      $query = $this->db->get('user');
+    if($query->num_rows()>0){
+      return $query->row_array();
+    }
+    else return false;
+  }
 }

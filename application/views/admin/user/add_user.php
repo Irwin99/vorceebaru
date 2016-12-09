@@ -13,7 +13,10 @@
       <h4><i class="icon fa fa-warning"></i> Alert!</h4>
       <?php echo validation_errors()?>
     </div>
+    <?php
   }
+    ?>
+
     <?php if(isset($error)){
     echo $error;
   }

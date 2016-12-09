@@ -7,15 +7,15 @@
 	<?php $this->load->view('default/common/nav');?>
 	<!-- <div id="vc-header">
 		<div class="container">
-			
+
 		</div>
 	</div> -->
 	<?php //$this->load->view('default/common/nav');?>
-	
+
 	<?php $this->load->view($path_content);?>
 
 	<?php $this->load->view('default/common/footer');?>
-	
+
 <div id="loginModal" class="modal fade in" role="dialog">
   <div class="modal-dialog modal-lg product-modal">
     <div class="modal-content flat text-center" style="border-radius:0px">
@@ -28,26 +28,30 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-md-3"></div>
+          <form action="<?php echo base_url('page/register-learner')?>" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-horizontal form-label-left" id="form-info">
+            <?php echo validation_errors()?>
+
           <div class="col-md-6" id="email-here">
             <div class="input-group margin-bottom-sm form-group" style="border-radius:0px">
               <span class="input-group-addon modal-fa"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Username">
+                <input class="form-control" type="text" placeholder="Username" name="username">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Password">
+                <input class="form-control" type="password" placeholder="Password" name="password">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Confirm Password">
+                <input class="form-control" type="text" placeholder="Confirm Password" name="confirm">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Email">
+                <input class="form-control" type="text" placeholder="Email"name="email">
             </div>
             <button class="btn btn-md form-control vc-btn-primary" style="border-radius:0px">Register</button>
           </div>
           <div class="col-md-3"></div>
+        </form>
         </div>
       </div>
       <div class="modal-footer text-center">
@@ -68,46 +72,49 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-md-2"></div>
+          <form action="<?php echo base_url('page/register-creator')?>" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-horizontal form-label-left" id="form-info">
+            <?php echo validation_errors()?>
           <div class="col-md-8" id="email-here">
             <div class="input-group margin-bottom-sm form-group" style="border-radius:0px">
               <span class="input-group-addon modal-fa"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Username">
+                <input class="form-control" type="text" placeholder="Username" name="username">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Password">
+                <input class="form-control" type="password" placeholder="Password" name="password">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Confirm Password">
+                <input class="form-control" type="password" placeholder="Confirm Password" name="confirm">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Email">
+                <input class="form-control" type="text" placeholder="Email" name="email">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-building fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Organization Name">
+                <input class="form-control" type="text" placeholder="Organization Name" name="organization_name">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Contact Person Name">
+                <input class="form-control" type="text" placeholder="Contact Person Name" name="full_name">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-phone fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Phone">
+                <input class="form-control" type="text" placeholder="Phone"name="phone_number">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-mobile fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Mobile">
+                <input class="form-control" type="text" placeholder="Mobile" name="mobile">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-home fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Address">
+                <input class="form-control" type="text" placeholder="Address" name="address">
             </div>
             <button class="btn btn-md form-control vc-btn-primary" style="border-radius:0px">Register</button>
           </div>
           <div class="col-md-2"></div>
+        </form>
         </div>
       </div>
       <div class="modal-footer text-center">

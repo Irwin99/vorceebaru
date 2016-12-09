@@ -16,32 +16,32 @@
     <div class="col-md-7 form-group form-impian" id="email-here">
       <div class="input-group margin-bottom-sm form-group">
           <span class="input-group-addon modal-fa"><i class="fa fa-user fa-fw " aria-hidden="true"></i></span>
-            <input class="form-control fa-" type="text" placeholder="Nama">
+            <input class="form-control fa-" type="text" placeholder="Nama" value="<?php echo $result['full_name']?>">
         </div>
         <div class="input-group margin-bottom-sm form-group">
           <span class="input-group-addon modal-fa"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="Email">
+            <input class="form-control" type="text" placeholder="Email" value="<?php echo $result['email']?>">
         </div>
         <div class="input-group margin-bottom-sm form-group">
           <span class="input-group-addon modal-fa"><i class="fa fa-home fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="Alamat">
+            <input class="form-control" type="text" placeholder="Alamat" value"<?php echo $result['address']?>">
         </div>
         <div class="input-group margin-bottom-sm form-group">
           <span class="input-group-addon modal-fa"><i class="fa fa-mobile-phone fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="Phone Number">
+            <input class="form-control" type="text" placeholder="Phone Number" value="<?php echo $result['phone_number']?>">
         </div>
         <div class="input-group margin-bottom-sm form-group">
           <span class="input-group-addon modal-fa"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="About Me">
+            <input class="form-control" type="text" placeholder="About Me" value="<?php echo $result['about_user']?>">
         </div>
         <div class="input-group margin-bottom-sm form-group">
-          Gender: 
+          Gender:
           <label class="radio-inline">
-            <input type="radio" name="gender" value="1" checked>
+            <input type="radio" name="gender" value="1" <?php echo set_value('gender', $row->gender) == 1 ? "checked" : ""; ?>>
             Male
           </label>
           <label class="radio-inline">
-            <input type="radio" name="gender" value="1">
+            <input type="radio" name="gender" value="2" <?php echo set_value('gender',$row->gender)== 2 ?"checked" : ""?>>
             Female
           </label>
         </div>
