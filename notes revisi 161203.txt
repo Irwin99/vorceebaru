@@ -6,6 +6,22 @@ Footer:
 - socmednya kecilin
 
 Fungsi
-- learner daftar (buat email newsletter)
+- learner daftar (buat email newsletter) -> Email, Username, Password
 - register creater (lihat di atamerica.com) 
 - creator bisa buat submit proposal (contact information)
+Point
+Creator Profile
+	- Organization Name
+	- Contact Person Name
+	- Email
+	- Phone
+	- Mobile 
+	- Address
+	- password
+	- confirmation password
+Submit Proposal
+	- Event Title
+	- Goal
+	- Event Description
+	- Event Schedule
+	- File Proposal
