@@ -98,7 +98,7 @@ class Page extends CI_Controller {
 		if(!$this->form_validation->run())
 			$this->load->view('default/index',$data);
 		else{
-				redirect(base_url('member'));
+				redirect(base_url('member/profil'));
 		}
 	}
   function validLoginMember(){

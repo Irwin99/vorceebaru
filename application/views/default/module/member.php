@@ -6,10 +6,10 @@
     <div class="col-md-4">
       <ul class="member-sidebar text-left" id="member-sidebar" style="list-style:none">
         <li>
-          <a class="active" href="#"><i class="fa fa-user" aria-hidden="true"></i>Profil</a>
+          <a class="active" href="<?php echo base_url('member/profil')?>"><i class="fa fa-user" aria-hidden="true"></i>Profil</a>
         </li>
         <li>
-          <a href="profile.html"><i class="fa fa-envelope-open" aria-hidden="true"></i> Workshop</a>
+          <a href="<?php echo base_url('member/submit-proposal')?>"><i class="fa fa-envelope-open" aria-hidden="true"></i> Workshop</a>
         </li>
       </ul>
     </div>
@@ -37,15 +37,15 @@
         <div class="input-group margin-bottom-sm form-group">
           Gender:
           <label class="radio-inline">
-            <input type="radio" name="gender" value="1" <?php echo set_value('gender', $row->gender) == 1 ? "checked" : ""; ?>>
+            <input type="radio" name="gender" value="1" <?php echo set_value('gender', $result['gender']) == 1 ? "checked" : ""; ?>>
             Male
           </label>
           <label class="radio-inline">
-            <input type="radio" name="gender" value="2" <?php echo set_value('gender',$row->gender)== 2 ?"checked" : ""?>>
+            <input type="radio" name="gender" value="2" <?php echo set_value('gender',$result['gender'])== 2 ?"checked" : ""?>>
             Female
           </label>
         </div>
-        <button class="btn btn-md form-control vc-btn-primary" style="border-radius:0px">Save Profile</button>
+
     </div>
     <div class="col-md-1"></div>
   </div>

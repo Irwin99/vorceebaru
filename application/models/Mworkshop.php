@@ -57,7 +57,7 @@ class Mworkshop extends CI_Model {
 				if($upload_data!=false){
 					$array['image_workshop'] = 'asset/images/workshop/'.$upload_data['orig_name'];
 				}
-		
+
 
       $this->db->where('id_workshop',$id);
       $this->db->update('workshop',$array);
@@ -88,4 +88,19 @@ class Mworkshop extends CI_Model {
 			}
 			else return FALSE;
 		}
+		function saveProposal($data,$upload_data){
+	    $array = array(
+					'id_category' => $data['category'],
+					'workshop_title' => $data['workshop_title'],
+					'image_workshop' => 'asset/images/workshop/'.$upload_data['orig_name'],
+	        'workshop_description' => $data['workshop_description'],
+					'event_goal' => $data['event_goal'],
+	        'hour_start' => $data['hour_start'],
+	        'hour_end' => $data['hour_end'],
+	        'date_workshop' => date('Y-m-d',strtotime($data['date_workshop'])),
+	        'date_insert' => date('Y-m-d H:i:s')
+	      );
+	    $this->db->insert('workshop',$array);
+	    return 1;
+	  }
 }

@@ -72,7 +72,7 @@ class Muser extends CI_Model {
 	        'username' => $data['username'],
 	        'password' => md5($data['password']),
 	        'email' => $data['email'],
-	        'full_name' => $data['full_name'],
+					'contact_person'=>$data['contact_person'],
 					'organization_name' => $data['organization_name'],
 					'phone_number' =>$data['phone_number'],
 					'mobile' => $data['mobile'],
@@ -112,5 +112,18 @@ class Muser extends CI_Model {
       return $query->row_array();
     }
     else return false;
+  }
+	function saveProfil($data,$id){
+    $array = array(
+        'email' => $data['email'],
+        'full_name' => $data['full_name'],
+				'gender' => $data['gender'],
+        'address' => $data['address'],
+				'about_user' => $data['about_user'],
+				'phone_number' => $data['phone_number']
+      );
+		$this->db->where('id_user',$id);
+    $this->db->update('user',$array);
+    return 1;
   }
 }
