@@ -7,7 +7,7 @@
 					
 				</div>
 				<div class="col-md-4 text-center col-sm-4">
-					<h2 style="margin-top:-10px;">ACTIVE CLASS</h2>	
+					<h2 style="margin-top:-15px;">ACTIVE CLASS</h2>	
 				</div>
 				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
 					
@@ -20,7 +20,7 @@
 					
 				</div>
 				<div class="col-md-4 text-center col-sm-4">
-					<h2 style="margin-top:-10px;">ACTIVE CLASS</h2>	
+					<h2 style="margin-top:-15px;">ACTIVE CLASS</h2>	
 				</div>
 				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
 					
@@ -33,7 +33,7 @@
 					
 				</div>
 				<div class="col-md-4 text-center col-sm-4">
-					<h2 style="margin-top:-10px;">ACTIVE CLASS</h2>	
+					<h2 style="margin-top:-15px;">ACTIVE CLASS</h2>	
 				</div>
 				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
 					
@@ -46,7 +46,7 @@
 					
 				</div>
 				<div class="col-xs-6 text-center col-sm-4">
-					<h2 style="margin-top:-10px;">ACTIVE CLASS</h2>	
+					<h2 style="margin-top:-15px;">ACTIVE CLASS</h2>	
 				</div>
 				<div class="col-xs-3 vc-dotted col-xs-3 col-sm-4">
 					

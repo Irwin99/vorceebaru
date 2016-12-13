@@ -59,18 +59,18 @@
 						<div class="col-sm-3"></div>
 					</div>
 				</div>
-				<div class="visible-xs" style="margin-top:-210px;">
+				<div class="visible-xs" style="margin-top:-260px;">
 					<h3>Hello, Creative People!</h1>
 					<h4>It's Vor Creative Indoestry. We are Pro Skill</h2><br/>
 					<div class="row">
 						<div class="col-sm-3"></div>
 						<div class="col-sm-3 form-group">
-							<button class="btn-tip" data-toggle="modal" data-target="#loginModal" type="text" type="submit" style="width:80%">
+							<button class="btn-tip" data-toggle="modal" data-target="#loginModal" type="text" type="submit" style="width:60%">
 								Creator
 							</button>
 						</div>
 						<div class="col-sm-3 form-group">
-							<button class="btn-tip" data-toggle="modal" data-target="#loginModal" type="text" type="submit" style="width:80%">
+							<button class="btn-tip" data-toggle="modal" data-target="#loginModal" type="text" type="submit" style="width:60%">
 								Learner
 							</button>
 						</div>
@@ -78,7 +78,13 @@
 					</div>
 				</div>
 			</div>
-			<div class="text-center tombol hidden-xs" style="margin-top:80px">
+			<div class="text-center tombol hidden-xs hidden-sm" style="margin-top:80px">
+				<a href="#scroll">
+					<h3>Scroll Down</h3>
+					<i class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div class="text-center tombol visible-sm" style="margin-top:30px">
 				<a href="#scroll">
 					<h3>Scroll Down</h3>
 					<i class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i>

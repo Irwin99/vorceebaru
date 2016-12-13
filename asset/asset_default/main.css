@@ -7,6 +7,7 @@ font-family: 'Roboto Condensed', sans-serif;
 body{
 	font-family: 'Muli', sans-serif;
 	overflow-x: hidden;
+	min-width: 500px;
 }
 a{
 	color: #333;
@@ -195,7 +196,7 @@ a{
 	padding-top:20px;
 }
 #vc-discover-sm{
-	margin: 20px 0 50px 0;
+	margin: 50px 0 50px 0;
 	padding-top:20px;
 }
 #vc-discover h2{
@@ -314,7 +315,7 @@ a{
 	z-index: 3;
 	padding:5px; 
 	color:#1E1E20;
-	height:70%;
+	height:73%;
 	width:50%;
 	background-color: rgba(255, 214, 51, 0.5);
 }
