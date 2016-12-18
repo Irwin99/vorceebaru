@@ -9,7 +9,7 @@
 			</div>
 			<div class="col-md-4 vc-footer-child text-center">
 				<h4 style="margin-left:15px">CONTACT US</h4><br/>
-				<div class="vc-footer-child-box text-left">
+				<div class=" text-left">
 					<div class="row hidden-xs" style="padding:0px 5px 0px 5px">
 						<div class="col-md-1 col-sm-1 col-xs-1">
 							<i class="fa fa-map-marker"></i><br/>
@@ -67,11 +67,9 @@
 				<div class="col-md-3 col-xs-12"></div>
 				<div class="col-md-6 col-xs-12 text-center">
 					<a href="#">Report Impact</a>
-					<a href="#">Partner</a>
 					<a href="#">Press</a>
 					<a href="#">Terms & Condition</a>
-					<a href="#">Privacy</a><br/>
-					Developed by <a href="http://dzillaweb.com/">Dzilla Web</a><br/>	
+					<a href="#">Privacy</a><br/>	
 					<p>&copy; 2016 Vorcee All Rights Reserved</p>	
 				</div>
 				<div class="col-md-3" style="margin-top:12px"></div>

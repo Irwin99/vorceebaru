@@ -214,6 +214,7 @@
 			}
 		}
 	?>
+
 			<!-- <div class="row" id="row-recommendonation">
 				<div class="col-md-4 col-sm-6 col-xs-12">
 		          <div class="vc-one">
@@ -349,17 +350,203 @@
 		</div>
 	 -->
 	 </div>
+	 <div>
+		<div class="visible-lg" id="vc-recent">
+			<div class="row">
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+				<div class="col-md-4 text-center col-sm-4">
+					<h2 style="margin-top:-15px;">RECENT UPDATES</h2>	
+				</div>
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+			</div>
+		</div>
+		<div class="visible-md" id="vc-recent">
+			<div class="row">
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+				<div class="col-md-4 text-center col-sm-4">
+					<h2 style="margin-top:-15px;">RECENT UPDATES</h2>	
+				</div>
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+			</div>
+		</div>
+		<div class="visible-sm" id="vc-recent">
+			<div class="row">
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+				<div class="col-md-4 text-center col-sm-4">
+					<h2 style="margin-top:-15px;">RECENT UPDATES</h2>	
+				</div>
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+			</div>
+		</div>
+		<div class="visible-xs" id="vc-recent">
+			<div class="row">
+				<div class="col-xs-3 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+				<div class="col-xs-6 text-center col-sm-4">
+					<h2 style="margin-top:-15px;">RECENT UPDATES</h2>	
+				</div>
+				<div class="col-xs-3 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="container">
+	<div class="row text-center">
+		<div class="col-md-4">
+			<div style="margin-bottom:5px">
+				<a href="#">
+					<img class="img-responsive" src="<?php echo base_url('asset/images/djradio.jpg')?>">
+				</a>
+			</div>
+			<div class="text-left" style="margin-bottom:10px">
+			Posted on December 18, 2016 By <a href="#">Admin</a>
+			</div>
+			<div class="text-left vc-detail-workshop">
+			<h2> Pembukaan Kelas Vorcee</h2>
+			Lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet<br/><br/>
+			<a href="#">
+				<button class="btn-tip" type="submit">Read More <i class="fa fa-angle-double-right"></i></button>
+			</a>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div style="margin-bottom:5px">
+				<a href="#">
+					<img class="img-responsive" src="<?php echo base_url('asset/images/djradio.jpg')?>">
+				</a>
+			</div>
+			<div class="text-left" style="margin-bottom:10px">
+			Posted on December 18, 2016 By <a href="#">Admin</a>
+			</div>
+			<div class="text-left vc-detail-workshop">
+			<h2> Pembukaan Kelas Vorcee</h2>
+			Lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet<br/><br/>
+			<a href="#">
+				<button class="btn-tip" type="submit">Read More <i class="fa fa-angle-double-right"></i></button>
+			</a>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div style="margin-bottom:5px">
+				<a href="#">
+					<img class="img-responsive" src="<?php echo base_url('asset/images/djradio.jpg')?>">
+				</a>
+			</div>
+			<div class="text-left" style="margin-bottom:10px">
+			Posted on December 18, 2016 By <a href="#">Admin</a>
+			</div>
+			<div class="text-left vc-detail-workshop">
+			<h2> Pembukaan Kelas Vorcee</h2>
+			Lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet lorem ipsum dolor sil amet<br/><br/>
+			<a href="#">
+				<button class="btn-tip" type="submit">Read More <i class="fa fa-angle-double-right"></i></button>
+			</a>
+			</div>
+		</div>
+	</div>
+</div>
 	<div class="bgimg-1">
 		<div class="overlay-image play-button-container">
 			SEE WHAT WE DO<br />
-			<h2>Get Involved with our environment
+			<h2>Get Involved with our foundation!
 			<a href="#">Learn More</a></h2>
 			<div class="form-group">
 				<button class="btn-tip" type="text" type="submit" style="width:50%">Apply Now</button>
 			</div>
 		</div>
 	</div>
-
+	 <div>
+		<div class="visible-lg" id="vc-recent">
+			<div class="row">
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+				<div class="col-md-4 text-center col-sm-4">
+					<h2 style="margin-top:-15px;">MEDIA PARTNERS</h2>	
+				</div>
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+			</div>
+		</div>
+		<div class="visible-md" id="vc-recent">
+			<div class="row">
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+				<div class="col-md-4 text-center col-sm-4">
+					<h2 style="margin-top:-15px;">MEDIA PARTNERS</h2>	
+				</div>
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+			</div>
+		</div>
+		<div class="visible-sm" id="vc-recent">
+			<div class="row">
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+				<div class="col-md-4 text-center col-sm-4">
+					<h2 style="margin-top:-15px;">MEDIA PARTNERS</h2>	
+				</div>
+				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+			</div>
+		</div>
+		<div class="visible-xs" id="vc-recent">
+			<div class="row">
+				<div class="col-xs-3 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+				<div class="col-xs-6 text-center col-sm-4">
+					<h2 style="margin-top:-15px;">MEDIA PARTNERS</h2>	
+				</div>
+				<div class="col-xs-3 vc-dotted col-xs-3 col-sm-4">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="container">
+	<div class="row text-center" style="margin-bottom:20px">
+		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+			<a href="#">
+				<img class="img-responsive" src="<?php echo base_url('asset/images/atamerica.png')?>">
+			</a>
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+			<a href="#">
+				<img class="img-responsive" src="<?php echo base_url('asset/images/nutrifood.jpg')?>">
+			</a>
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+			<a href="#">
+				<img class="img-responsive" src="<?php echo base_url('asset/images/nutrifood.jpg')?>">
+			</a>
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+			<a href="#">
+				<img class="img-responsive" src="<?php echo base_url('asset/images/nutrifood.jpg')?>">
+			</a>
+		</div>
+	</div>
+</div>
 
 
 	<div id="vc-modal" class="modal fade" role="dialog">

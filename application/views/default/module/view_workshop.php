@@ -288,16 +288,15 @@
 		          	</div>
 				</div>
 			</div>
-			<div class="row text-center visible-xs">
+			<div class="row text-center visible-xs" style="">
 				<div class="col-xs-5 vc-product-might-xs">
 					<div class="vc-one-xs">
 			          <div class="imgB2-xs">
-			          	<h4 style="margin-top:145%">
+			          	<h4 style="margin-top:100px">
 			            	<b>Isyana Sarasvati's Gallery</b><br /><br />
 			            </h4>
 			          </div>
-			            <a href="single.html"><img alt="" class="img-responsive" /></a> 
-			            <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
+			            <a href="single.html"><img alt="" class="img-responsive" /></a> <div id="vc-box" style="background-image:url(<?php echo base_url('asset/images/workshop2.jpg')?>)">
 						  <div id="vc-overlay">
 						    <span id="vc-plus">
 						    	
