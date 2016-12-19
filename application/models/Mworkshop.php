@@ -21,6 +21,22 @@ class Mworkshop extends CI_Model {
     }
     else return FALSE;
   }
+  function fetchWorkshopCategory($limit,$start,$pagenumber,$id) {
+
+    if($pagenumber!="")
+      $this->db->limit($limit,($pagenumber*$limit)-$limit);
+    else
+      $this->db->limit($limit,$start);
+
+  	$this->db->where('workshop.id_category',$id);
+	$this->db->join('category','workshop.id_category = category.id_category');
+    $this->db->order_by('date_insert','DESC');
+    $query = $this->db->get('workshop');
+    if($query->num_rows()>0){
+      return $query->result();
+    }
+    else return FALSE;
+  }
   function countAllWorkshop() {
     return $this->db->count_all("workshop");
   }
@@ -72,6 +88,7 @@ class Mworkshop extends CI_Model {
 	    }
 	    else return FALSE;
 		}
+
 		function getworkshop($id){
 			$this->db->join('category','category.id_category = workshop.id_category');
 			$this->db->where('id_workshop',$id);
@@ -90,17 +107,24 @@ class Mworkshop extends CI_Model {
 		}
 		function saveProposal($data,$upload_data){
 	    $array = array(
-					'id_category' => $data['category'],
-					'workshop_title' => $data['workshop_title'],
-					'image_workshop' => 'asset/images/workshop/'.$upload_data['orig_name'],
+			'id_category' => $data['category'],
+			'id_user' => $this->session->userdata('idUser'),
+			'workshop_title' => $data['workshop_title'],
 	        'workshop_description' => $data['workshop_description'],
-					'event_goal' => $data['event_goal'],
+			'event_goal' => $data['event_goal'],
 	        'hour_start' => $data['hour_start'],
 	        'hour_end' => $data['hour_end'],
+	        'location' => $data['location'],
+	        'course_fee' => $data['course_fee'],
+	        'file_proposal' => $this->session->userdata('path_file0'),
+	        'image_workshop' => $this->session->userdata('path_file1'),
 	        'date_workshop' => date('Y-m-d',strtotime($data['date_workshop'])),
 	        'date_insert' => date('Y-m-d H:i:s')
 	      );
 	    $this->db->insert('workshop',$array);
+	    $this->session->set_userdata(array('path_file0' =>NULL));
+	    $this->session->set_userdata(array('path_file1' =>NULL));
+
 	    return 1;
 	  }
 }

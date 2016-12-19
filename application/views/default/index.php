@@ -49,6 +49,7 @@
                 <input class="form-control" type="text" placeholder="Email"name="email">
             </div>
             <button class="btn btn-md form-control vc-btn-primary" style="border-radius:0px">Register</button>
+            Already have Account? Login <a href="<?php echo base_url('page/login')?>">Here</a>
           </div>
           <div class="col-md-3"></div>
         </form>
@@ -97,7 +98,7 @@
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></span>
-                <input class="form-control" type="text" placeholder="Contact Person Name" name="full_name">
+                <input class="form-control" type="text" placeholder="Contact Person Name" name="contact_person">
             </div>
             <div class="input-group margin-bottom-sm form-group">
               <span class="input-group-addon modal-fa"><i class="fa fa-phone fa-fw" aria-hidden="true"></i></span>
@@ -112,6 +113,7 @@
                 <input class="form-control" type="text" placeholder="Address" name="address">
             </div>
             <button class="btn btn-md form-control vc-btn-primary" style="border-radius:0px">Register</button>
+            Already have Account? Login <a href="<?php echo base_url('page/login')?>">Here</a>
           </div>
           <div class="col-md-2"></div>
         </form>
@@ -132,16 +134,26 @@
     <script>
   $(function () {
     $('#datepicker').datepicker({
-      autoclose: true
+      format:"d M yyyy",
+      autoclose: true,
+      todayBtn:"linked"
     });
     $('#datepicker2').datepicker({
       autoclose: true
     });
     $(".timepicker").timepicker({
-      showInputs: false
+      showInputs: false,
+      defaultTime: '07:00',
+    minuteStep: 15,
+    disableFocus: true,
+    showMeridian:false
     });
     $(".timepicker2").timepicker({
-      showInputs: false
+      showInputs: false,
+      defaultTime: '07:00',
+    minuteStep: 15,
+    disableFocus: true,
+    showMeridian:false
     });
   });
 </script>

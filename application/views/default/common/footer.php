@@ -76,5 +76,4 @@
 			</div>
 		</div>
 	</div>
-	
-    <script src="asset/asset_default/js/bootstrap.min.js"></script>
+	<!-- Developed By Dzillaweb -->

@@ -4,17 +4,9 @@
   </div>
   <div class="row text-center">
     <div class="col-md-4">
-      <ul class="member-sidebar text-left" id="member-sidebar" style="list-style:none">
-        <li>
-          <a class="active" href="#"><i class="fa fa-user" aria-hidden="true"></i>Profil</a>
-        </li>
-        <li>
-          <a href=<?php echo base_url('member/submit-proposal')?>><i class="fa fa-envelope-open" aria-hidden="true"></i> Proposal</a>
-        </li>
-        <li>
-          <a href="<?php echo base_url('member/logout')?>"><i class="fa fa-envelope-open" aria-hidden="true"></i> Logout</a>
-        </li>
-      </ul>
+      <?php
+        $this->load->view('default/module/nav_member');
+      ?>
     </div>
     <div class="col-md-7 form-group form-impian" id="email-here">
       <?php
@@ -24,7 +16,7 @@
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <strong>YOGS!</strong> YOGS
+            <strong>Success!</strong> You have successfully updated profile.
           </div>
           <?php
         }
@@ -48,8 +40,8 @@
             <input class="form-control" type="text" placeholder="Phone Number" name="phone_number" value="<?php echo $result['phone_number']?>">
         </div>
         <div class="input-group margin-bottom-sm form-group">
-          <span class="input-group-addon modal-fa"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="About Me" name="about_user" value="<?php echo $result['about_user']?>">
+          <span class="input-group-addon modal-fa"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i></span>
+            <input class="form-control" type="text" placeholder="Address" value="<?php echo $result['address']?>">
         </div>
         <div class="input-group margin-bottom-sm form-group">
           Gender:

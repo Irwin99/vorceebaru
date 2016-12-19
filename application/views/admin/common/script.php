@@ -34,7 +34,7 @@
 <script src="<?php echo base_url('asset/asset_lte/dist/js/app.min.js') ?>"></script>
 <script>
 $('#datepicker').datepicker({
-    format:"d M yyyy",
+      format:"d M yyyy",
       autoclose: true,
       todayBtn:"linked"
     });

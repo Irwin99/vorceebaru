@@ -30,7 +30,7 @@
           <li class="user-header">
           <i class="fa fa-user" aria-hidden="true"></i>
             <p>
-              <?php echo $this->session->userdata('username');?> | e-conosmart
+              <?php echo $this->session->userdata('username');?> | Vorcee
               <small> since . 2016</small>
             </p>
           </li>

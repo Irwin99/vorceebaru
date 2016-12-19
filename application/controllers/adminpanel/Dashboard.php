@@ -12,6 +12,11 @@ class Dashboard extends CI_Controller {
 			redirect(base_url('adminpanel/dashboard/login'));
 		}
 		$data['title_web']= 'adminpanel | Vorcee';
+		$data['creator'] = $this->mod->countWhereData('user','permission',0);
+		$data['learner'] = $this->mod->countWhereData('user','permission',2);
+		$data['event'] = $this->mod->countData('workshop');
+		$data['category'] = $this->mod->countData('category');
+		
 		$data['path_content'] = 'admin/module/dashboard';
 		$this->load->view('admin/index',$data);
 	}

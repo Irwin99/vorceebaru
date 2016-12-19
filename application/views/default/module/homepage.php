@@ -29,27 +29,21 @@
 		</div>
 		<div class="visible-sm" id="vc-discover-sm">
 			<div class="row">
-				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+				<div class="col-sm-4 vc-dotted col-xs-3 col-sm-4">
 					
 				</div>
-				<div class="col-md-4 text-center col-sm-4">
+				<div class="col-sm-4 text-center col-sm-4">
 					<h2 style="margin-top:-15px;">ACTIVE CLASS</h2>	
 				</div>
-				<div class="col-md-4 vc-dotted col-xs-3 col-sm-4">
+				<div class="col-sm-4 vc-dotted col-xs-3 col-sm-4">
 					
 				</div>
 			</div>
 		</div>
 		<div class="visible-xs" id="vc-discover-sm">
 			<div class="row">
-				<div class="col-xs-3 vc-dotted col-xs-3 col-sm-4">
-					
-				</div>
-				<div class="col-xs-6 text-center col-sm-4">
+				<div class="col-xs-12 text-left">
 					<h2 style="margin-top:-15px;">ACTIVE CLASS</h2>	
-				</div>
-				<div class="col-xs-3 vc-dotted col-xs-3 col-sm-4">
-					
 				</div>
 			</div>
 		</div>
@@ -461,8 +455,8 @@
 </div>
 	<div class="bgimg-1">
 		<div class="overlay-image play-button-container">
-			SEE WHAT WE DO<br />
-			<h2>Get Involved with our foundation!
+			Get Involved with our foundation!<br />
+			<h2>
 			<a href="#">Learn More</a></h2>
 			<div class="form-group">
 				<button class="btn-tip" type="text" type="submit" style="width:50%">Apply Now</button>

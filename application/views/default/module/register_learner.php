@@ -5,7 +5,7 @@
 				<div class="col-md-4 vc-dotted col-xs-2 col-sm-4">
 				</div>
 				<div class="col-md-4 text-center col-xs-8 col-sm-4">
-					<h2 style="margin-top:-15px;">Hello Yogs Learner</h2>
+					<h2 style="margin-top:-15px;">Hello Learner</h2>
 				</div>
 				<div class="col-md-4 vc-dotted col-xs-2 col-sm-4">
 				</div>
@@ -19,16 +19,16 @@
               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
-              <strong>YOGS!</strong> YOGS
+              <strong>Success!</strong> 
+              You Have Succesfully registered. Please Login with your username & password.
             </div>
             <?php
           }
 					?>
-        <div class="col-md-3"></div>
         <form action="<?php echo base_url('page/register-learner')?>" enctype="multipart/form-data" method="post" accept-charset="utf-8" class="form-horizontal form-label-left" id="form-info">
-          <?php echo validation_errors()?>
 
-        <div class="col-md-6" id="email-here">
+        <div class="col-md-12" id="email-here">
+        <?php echo validation_errors()?>
           <div class="input-group margin-bottom-sm form-group" style="border-radius:0px">
             <span class="input-group-addon modal-fa"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
               <input class="form-control" type="text" placeholder="Username" name="username">
@@ -46,8 +46,8 @@
               <input class="form-control" type="text" placeholder="Email"name="email">
           </div>
           <button class="btn btn-md form-control vc-btn-primary" style="border-radius:0px">Register</button>
+          Already have Account? Login <a href="<?php echo base_url('page/login')?>">Here</a>
         </div>
-        <div class="col-md-3"></div>
       </form>
       </div>
 			</div>

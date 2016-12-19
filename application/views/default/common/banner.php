@@ -59,22 +59,26 @@
 						<div class="col-sm-3"></div>
 					</div>
 				</div>
-				<div class="visible-xs" style="margin-top:-260px;">
-					<h3>Hello, Creative People!</h1>
-					<h4>It's Vor Creative Indoestry. We are Pro Skill</h2><br/>
+				<div class="visible-xs" style="margin-top:-180px;">
+					<!-- <div class="row">
+						<div class="col-xs-6 col-xs-offset-1 form-group">
+							<h3>Hello, Creative People!</h3>
+							<h4>It's Vor Creative Indoestry. We are Pro Skill</h4><br/>
+						</div>
+					</div> -->
 					<div class="row">
-						<div class="col-sm-3"></div>
-						<div class="col-sm-3 form-group">
-							<button class="btn-tip" data-toggle="modal" data-target="#loginModal" type="text" type="submit" style="width:60%">
+						<div class="col-xs-6 col-xs-offset-1 form-group">
+							<button class="btn-tip form-control" data-toggle="modal" data-target="#loginModal" type="text" type="submit">
 								Creator
 							</button>
 						</div>
-						<div class="col-sm-3 form-group">
-							<button class="btn-tip" data-toggle="modal" data-target="#loginModal" type="text" type="submit" style="width:60%">
+					</div>
+					<div class="row">
+						<div class="col-xs-6 col-xs-offset-1 form-group">
+							<button class="btn-tip form-control" data-toggle="modal" data-target="#loginModal" type="text" type="submit">
 								Learner
 							</button>
 						</div>
-						<div class="col-sm-3"></div>
 					</div>
 				</div>
 			</div>

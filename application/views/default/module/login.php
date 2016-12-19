@@ -35,10 +35,10 @@
 				            </div>
 				              <div class="input-group margin-bottom-sm form-group">
 				              <span class="input-group-addon modal-fa"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
-				                <input class="form-control" type="text" placeholder="Password" name="password">
+				                <input class="form-control" type="password" placeholder="Password" name="password">
 				            </div>
 				            <div class="form-group">
-				              <a href="#" style="color:#333">Forgot Password ?</a>
+				              <!-- <a href="<?php echo base_url('page/forgot-password')?>" style="color:#333">Forgot Password ?</a> -->
 				            </div>
 				            <button class="btn btn-md form-control vc-btn-primary" style="border-radius:0px">Login</button>
 									</form>

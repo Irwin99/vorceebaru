@@ -31,17 +31,17 @@
             <input class="form-control" type="text" placeholder="Phone Number" value="<?php echo $result['phone_number']?>">
         </div>
         <div class="input-group margin-bottom-sm form-group">
-          <span class="input-group-addon modal-fa"><i class="fa fa-newspaper-o fa-fw" aria-hidden="true"></i></span>
-            <input class="form-control" type="text" placeholder="About Me" value="<?php echo $result['about_user']?>">
+          <span class="input-group-addon modal-fa"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i></span>
+            <input class="form-control" type="text" placeholder="Address" value="<?php echo $result['address']?>">
         </div>
         <div class="input-group margin-bottom-sm form-group">
           Gender:
           <label class="radio-inline">
-            <input type="radio" name="gender" value="1" <?php echo set_value('gender', $result['gender']) == 1 ? "checked" : ""; ?>>
+            <input type="radio" name="gender" value="1" <?php if($result['gender'] == 1) echo "checked";?>>
             Male
           </label>
           <label class="radio-inline">
-            <input type="radio" name="gender" value="2" <?php echo set_value('gender',$result['gender'])== 2 ?"checked" : ""?>>
+            <input type="radio" name="gender" value="2" <?php if($result['gender'] == 2) echo "checked";?>>
             Female
           </label>
         </div>
